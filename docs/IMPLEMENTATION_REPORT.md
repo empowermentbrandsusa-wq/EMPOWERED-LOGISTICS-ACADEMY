@@ -86,13 +86,13 @@ Zero and negative inputs, nonfinite and oversized values, invalid unit counts, z
 | Responsive layouts            | 45 tested page/viewport combinations pass overflow checks                                                                   |
 | Automated accessibility       | Eight representative pages: zero axe violations for the configured WCAG-related tags                                        |
 | Content integrity             | 30 carrier lessons, 27 warehouse lessons, 17 stages, 14 opportunities, 32 resources; no missing references/mandatory fields |
-| External links                | 32/32 successful HTTP responses; final URLs recorded; no 404/410 results                                                    |
+| External links                | 32/32 successful on 2026-10-04; hardened recheck on 2026-10-05 returned 31 and one AJC timeout; no 404/410 results            |
 | Source/security pattern check | 36 source/data files checked; zero pattern findings                                                                         |
 | Dependencies                  | Zero known vulnerabilities in the executed audit                                                                            |
 | Production build              | Passed; 96 prerendered routes plus 404                                                                                      |
 | Built route/metadata/assets   | Passed; lesson metadata matches its rendered content                                                                        |
 
-Evidence: browser-results.json, link-check.json, dependency-audit.json, security-check.json, routes.json and home-desktop.jpg/home-mobile.jpg in this directory. GitHub quality and CodeQL workflows are configured; their remote results are separate from these local checks. The local Git branch is ready for review, but it could not be published on October 4, 2026 because the connected GitHub App installation did not include this repository in its selected-repository access. No pull request or Copilot review has therefore been claimed.
+Evidence: browser-results.json, link-check.json, dependency-audit.json, security-check.json, routes.json and home-desktop.jpg/home-mobile.jpg in this directory. Pull request #1 was opened on October 5, 2026. Its first CodeQL review identified five build-script hardening findings: an overly broad USPS hostname suffix, two metadata extraction sanitization patterns and two link-checker data-flow concerns. All five were addressed locally before the follow-up review by using an exact hostname rule, explicit route metadata with HTML encoding, and an exact reviewed URL allowlist with bounded response recording.
 
 ## Performance and SEO
 
@@ -108,7 +108,7 @@ All known pages have prerendered HTML, titles, descriptions and Open Graph text.
 - State-specific depth is strongest in Georgia. Complete direct formation/tax/labor/transport/local resources for all other states remain editorial work.
 - Video/media collection is deliberately small: official videos, a company tour and a local facility example. Further operator interviews need verification and editorial review.
 - Hosted headers, canonical URLs, real 404 statuses, production caching and origin privacy disclosures need deployment validation.
-- Remote publication is pending GitHub App access to this repository; the implementation currently exists as a complete local Git commit rather than a remote branch or pull request.
+- Deployment remains intentionally pending; pull request #1 is open and must not merge until its follow-up quality and security checks complete.
 - Internal editorial and automated browser reviews do not replace expert logistics/legal/tax/insurance review, penetration testing, screen-reader testing or hardware-based mobile verification.
 
 ## Five strongest parts

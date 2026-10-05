@@ -36,33 +36,80 @@ const paths = [
   ...carrier.map((l) => `/academy/carrier/${l.id}`),
   ...warehouse.map((l) => `/academy/warehouse/${l.id}`),
 ];
+const staticTitles = new Map([
+  ["/", "Empowered Logistics Academy — Every order creates opportunity"],
+  ["/journey", "What happens after Buy Now?"],
+  ["/opportunities", "Find your lane"],
+  ["/opportunities/compare", "Compare business opportunities"],
+  ["/academy", "Logistics Academy"],
+  ["/academy/carrier", "Last-mile carrier master course"],
+  ["/academy/warehouse", "Warehouse business master course"],
+  ["/tools", "Business modeling tools"],
+  ["/tools/route", "Route business model"],
+  ["/tools/warehouse", "Warehouse startup calculator"],
+  ["/resources", "Logistics resource center"],
+  ["/resources/government", "Official government resources"],
+  ["/search", "Search the Academy"],
+  ["/money", "Follow the money"],
+  ["/proposal", "Why last-mile logistics?"],
+  ["/vehicles", "Vehicle center"],
+  ["/start", "Start a logistics business"],
+  ["/start/start-small", "Start with what you have"],
+  ["/start/business-registration", "Business registration by state"],
+  ["/find-your-lane", "Personalized learning pathway"],
+  ["/glossary", "Logistics glossary"],
+  ["/progress", "Learning progress"],
+  ["/partners", "Partners"],
+  ["/about", "About the Academy"],
+  ["/privacy", "Privacy"],
+  ["/404", "Page not found"],
+]);
+const routeMetadata = new Map([
+  ...opportunities.map((o) => [
+    `/opportunities/${o.id}`,
+    { title: o.title, description: o.tagline },
+  ]),
+  ...carrier.map((lesson) => [
+    `/academy/carrier/${lesson.id}`,
+    { title: lesson.title, description: lesson.body },
+  ]),
+  ...warehouse.map((lesson) => [
+    `/academy/warehouse/${lesson.id}`,
+    { title: lesson.title, description: lesson.body },
+  ]),
+]);
+const defaultDescription =
+  "Learn the system. Find your lane. Build your business.";
+const escapeHtml = (value) =>
+  value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 for (const path of [...paths, "/404"]) {
   const markup = render(path);
-  const h1 =
-    markup.match(/<h1[^>]*>(.*?)<\/h1>/)?.[1]?.replace(/<[^>]+>/g, "") ||
-    "Empowered Logistics Academy";
+  const metadata = routeMetadata.get(path);
+  const pageTitle = metadata?.title || staticTitles.get(path) || "Academy";
   const title =
-    path === "/"
-      ? "Empowered Logistics Academy — Every order creates opportunity"
-      : `${h1} | Empowered Logistics Academy`;
-  const description =
-    markup.match(/<p class="lead">(.*?)<\/p>/)?.[1]?.replace(/<[^>]+>/g, "") ||
-    "Learn the system. Find your lane. Build your business.";
-  const escape = (s) => s.replace(/"/g, "&quot;");
+    path === "/" ? pageTitle : `${pageTitle} | Empowered Logistics Academy`;
+  const description = metadata?.description || defaultDescription;
+  const safeTitle = escapeHtml(title);
+  const safeDescription = escapeHtml(description);
   let html = template
     .replace('<div id="root"></div>', `<div id="root">${markup}</div>`)
-    .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
+    .replace(/<title>.*?<\/title>/, `<title>${safeTitle}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
-      `<meta name="description" content="${escape(description)}"/>`,
+      `<meta name="description" content="${safeDescription}"/>`,
     )
     .replace(
       /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:title" content="${escape(title)}"/>`,
+      `<meta property="og:title" content="${safeTitle}"/>`,
     )
     .replace(
       /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:description" content="${escape(description)}"/>`,
+      `<meta property="og:description" content="${safeDescription}"/>`,
     );
   if (path === "/404") await fs.writeFile("dist/404.html", html);
   else {

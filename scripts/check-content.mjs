@@ -9,15 +9,18 @@ const errors = [];
 const ids = new Set(resources.map((r) => r.id));
 if (ids.size !== resources.length) errors.push("Duplicate resource IDs");
 const urls = new Set();
+const isOfficialGovernmentHost = (hostname) =>
+  hostname.endsWith(".gov") ||
+  hostname.endsWith(".state.tx.us") ||
+  hostname === "usps.com" ||
+  hostname.endsWith(".usps.com");
 for (const r of resources) {
   if (!r.url.startsWith("https://")) errors.push(`Insecure URL: ${r.id}`);
   if (urls.has(r.url)) errors.push(`Duplicate URL: ${r.id}`);
   urls.add(r.url);
   if (
     r.classification === "Government" &&
-    !new URL(r.url).hostname.endsWith(".gov") &&
-    !new URL(r.url).hostname.endsWith(".state.tx.us") &&
-    !new URL(r.url).hostname.endsWith("usps.com")
+    !isOfficialGovernmentHost(new URL(r.url).hostname.toLowerCase())
   )
     errors.push(`Nonofficial government domain: ${r.id}`);
   for (const k of [

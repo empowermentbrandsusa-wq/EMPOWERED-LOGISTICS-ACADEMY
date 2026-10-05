@@ -2,225 +2,194 @@
   {
     "id": "parcel",
     "url": "https://www.pitneybowes.com/us/shipping-index.html",
-    "checkedAt": "2026-10-04T13:07:28.949Z",
-    "status": 200,
-    "finalUrl": "https://www.pitneybowes.com/us/shipping-index.html"
+    "checkedAt": "2026-10-05T12:36:50.897Z",
+    "status": 200
   },
   {
     "id": "dot",
     "url": "https://www.fmcsa.dot.gov/registration/do-i-need-usdot-number",
-    "checkedAt": "2026-10-04T13:07:28.958Z",
-    "status": 200,
-    "finalUrl": "https://www.fmcsa.dot.gov/registration/do-i-need-usdot-number"
-  },
-  {
-    "id": "authority",
-    "url": "https://www.fmcsa.dot.gov/registration/get-mc-number-authority-operate",
-    "checkedAt": "2026-10-04T13:07:28.960Z",
-    "status": 200,
-    "finalUrl": "https://www.fmcsa.dot.gov/registration/get-mc-number-authority-operate"
+    "checkedAt": "2026-10-05T12:36:50.914Z",
+    "status": 200
   },
   {
     "id": "insurance",
     "url": "https://www.fmcsa.dot.gov/registration/insurance-filing-requirements",
-    "checkedAt": "2026-10-04T13:07:28.960Z",
-    "status": 200,
-    "finalUrl": "https://www.fmcsa.dot.gov/registration/insurance-filing-requirements"
+    "checkedAt": "2026-10-05T12:36:50.917Z",
+    "status": 200
   },
   {
-    "id": "startup",
-    "url": "https://www.sba.gov/counseling/plan-your-business/",
-    "checkedAt": "2026-10-04T13:07:35.440Z",
-    "status": 200,
-    "finalUrl": "https://www.sba.gov/counseling/plan-your-business/"
-  },
-  {
-    "id": "break-even",
-    "url": "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point",
-    "checkedAt": "2026-10-04T13:07:35.440Z",
-    "status": 200,
-    "finalUrl": "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+    "id": "authority",
+    "url": "https://www.fmcsa.dot.gov/registration/get-mc-number-authority-operate",
+    "checkedAt": "2026-10-05T12:36:50.916Z",
+    "status": 200
   },
   {
     "id": "sba",
     "url": "https://www.sba.gov/counseling/launch-your-business/",
-    "checkedAt": "2026-10-04T13:07:35.439Z",
-    "status": 200,
-    "finalUrl": "https://www.sba.gov/counseling/launch-your-business/"
+    "checkedAt": "2026-10-05T12:37:09.658Z",
+    "status": 200
+  },
+  {
+    "id": "startup",
+    "url": "https://www.sba.gov/counseling/plan-your-business/",
+    "checkedAt": "2026-10-05T12:37:09.660Z",
+    "status": 200
+  },
+  {
+    "id": "break-even",
+    "url": "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point",
+    "checkedAt": "2026-10-05T12:37:09.661Z",
+    "status": 200
   },
   {
     "id": "ein",
     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
-    "checkedAt": "2026-10-04T13:07:35.441Z",
-    "status": 200,
-    "finalUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+    "checkedAt": "2026-10-05T12:37:09.662Z",
+    "status": 200
   },
   {
     "id": "ga-llc",
     "url": "https://georgia.gov/register-llc",
-    "checkedAt": "2026-10-04T13:07:41.641Z",
-    "status": 200,
-    "finalUrl": "https://georgia.gov/register-llc"
+    "checkedAt": "2026-10-05T12:37:21.849Z",
+    "status": 200
   },
   {
     "id": "ga-workers",
     "url": "https://sbwc.georgia.gov/frequently-asked-questions/workers-compensation-insurance-faqs",
-    "checkedAt": "2026-10-04T13:07:41.642Z",
-    "status": 200,
-    "finalUrl": "https://sbwc.georgia.gov/frequently-asked-questions/workers-compensation-insurance-faqs"
+    "checkedAt": "2026-10-05T12:37:21.850Z",
+    "status": 200
   },
   {
     "id": "ga-tax",
     "url": "https://dor.georgia.gov/taxes/register-new-business-georgia",
-    "checkedAt": "2026-10-04T13:07:41.641Z",
-    "status": 200,
-    "finalUrl": "https://dor.georgia.gov/taxes/register-new-business-georgia"
+    "checkedAt": "2026-10-05T12:37:21.850Z",
+    "status": 200
   },
   {
     "id": "tax",
     "url": "https://www.irs.gov/businesses/small-businesses-self-employed",
-    "checkedAt": "2026-10-04T13:07:41.640Z",
-    "status": 200,
-    "finalUrl": "https://www.irs.gov/businesses/small-businesses-self-employed"
-  },
-  {
-    "id": "ga-transport",
-    "url": "https://dps.georgia.gov/motor-carrier-compliance",
-    "checkedAt": "2026-10-04T13:07:46.221Z",
-    "status": 200,
-    "finalUrl": "https://dps.georgia.gov/motor-carrier-compliance"
-  },
-  {
-    "id": "osha",
-    "url": "https://www.osha.gov/warehousing",
-    "checkedAt": "2026-10-04T13:07:46.222Z",
-    "status": 200,
-    "finalUrl": "https://www.osha.gov/warehousing"
+    "checkedAt": "2026-10-05T12:37:21.848Z",
+    "status": 200
   },
   {
     "id": "forklift",
     "url": "https://www.osha.gov/powered-industrial-trucks",
-    "checkedAt": "2026-10-04T13:07:46.222Z",
-    "status": 200,
-    "finalUrl": "https://www.osha.gov/powered-industrial-trucks"
+    "checkedAt": "2026-10-05T12:37:38.808Z",
+    "status": 200
+  },
+  {
+    "id": "osha",
+    "url": "https://www.osha.gov/warehousing",
+    "checkedAt": "2026-10-05T12:37:38.807Z",
+    "status": 200
   },
   {
     "id": "labor",
     "url": "https://www.dol.gov/agencies/whd/flsa/misclassification",
-    "checkedAt": "2026-10-04T13:07:46.222Z",
-    "status": 200,
-    "finalUrl": "https://www.dol.gov/agencies/whd/flsa/misclassification"
+    "checkedAt": "2026-10-05T12:37:38.806Z",
+    "status": 200
   },
   {
-    "id": "census",
-    "url": "https://www.census.gov/retail/data.html",
-    "checkedAt": "2026-10-04T13:07:53.947Z",
-    "status": 200,
-    "finalUrl": "https://www.census.gov/retail/data.html"
+    "id": "ga-transport",
+    "url": "https://dps.georgia.gov/motor-carrier-compliance",
+    "checkedAt": "2026-10-05T12:37:38.805Z",
+    "status": 200
   },
   {
     "id": "bts",
     "url": "https://www.bts.gov/topics/freight-transportation",
-    "checkedAt": "2026-10-04T13:07:53.948Z",
-    "status": 200,
-    "finalUrl": "https://www.bts.gov/topics/freight-transportation"
+    "checkedAt": "2026-10-05T12:37:48.799Z",
+    "status": 200
   },
   {
     "id": "warehouse-story",
     "url": "https://www.aboutamazon.com/news/operations/amazon-fulfillment-center-photo-tour",
-    "checkedAt": "2026-10-04T13:07:53.948Z",
-    "status": 200,
-    "finalUrl": "https://www.aboutamazon.com/news/operations/amazon-fulfillment-center-photo-tour"
+    "checkedAt": "2026-10-05T12:37:48.800Z",
+    "status": 200
   },
   {
     "id": "tour",
     "url": "https://www.aboutamazon.com/news/operations/join-our-team-on-a-guided-video-tour-through-a-fulfillment-center",
-    "checkedAt": "2026-10-04T13:07:53.948Z",
-    "status": 200,
-    "finalUrl": "https://www.aboutamazon.com/news/operations/join-our-team-on-a-guided-video-tour-through-a-fulfillment-center"
+    "checkedAt": "2026-10-05T12:37:48.800Z",
+    "status": 200
+  },
+  {
+    "id": "census",
+    "url": "https://www.census.gov/retail/data.html",
+    "checkedAt": "2026-10-05T12:37:48.799Z",
+    "status": 200
   },
   {
     "id": "state-directory",
     "url": "https://www.usa.gov/state-governments",
-    "checkedAt": "2026-10-04T13:07:58.597Z",
-    "status": 200,
-    "finalUrl": "https://www.usa.gov/state-governments"
+    "checkedAt": "2026-10-05T12:38:01.017Z",
+    "status": 200
   },
   {
     "id": "reverse",
     "url": "https://lot.dhl.com/reverse-logistics-explained/",
-    "checkedAt": "2026-10-04T13:07:58.596Z",
-    "status": 200,
-    "finalUrl": "https://lot.dhl.com/reverse-logistics-explained/"
-  },
-  {
-    "id": "atlanta-operators",
-    "url": "https://www.ajc.com/news/business/local-black-owned-logistics-hubs-help-support-small-businesses/QLS36NM775A6DOVBQ7RHA7QURE/",
-    "checkedAt": "2026-10-04T13:07:58.596Z",
-    "status": 200,
-    "finalUrl": "https://www.ajc.com/news/business/local-black-owned-logistics-hubs-help-support-small-businesses/QLS36NM775A6DOVBQ7RHA7QURE/"
+    "checkedAt": "2026-10-05T12:38:01.016Z",
+    "status": 302
   },
   {
     "id": "definitions",
     "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
-    "checkedAt": "2026-10-04T13:07:58.596Z",
-    "status": 200,
-    "finalUrl": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx"
+    "checkedAt": "2026-10-05T12:38:01.016Z",
+    "status": 200
   },
   {
-    "id": "local-directory",
-    "url": "https://www.usa.gov/local-governments",
-    "checkedAt": "2026-10-04T13:08:05.990Z",
-    "status": 200,
-    "finalUrl": "https://www.usa.gov/local-governments"
+    "id": "atlanta-operators",
+    "url": "https://www.ajc.com/news/business/local-black-owned-logistics-hubs-help-support-small-businesses/QLS36NM775A6DOVBQ7RHA7QURE/",
+    "checkedAt": "2026-10-05T12:38:01.017Z",
+    "status": null,
+    "error": "request-failed"
   },
   {
     "id": "fl-registration",
     "url": "https://dos.fl.gov/sunbiz/start-business",
-    "checkedAt": "2026-10-04T13:08:05.991Z",
-    "status": 200,
-    "finalUrl": "https://dos.fl.gov/sunbiz/start-business"
+    "checkedAt": "2026-10-05T12:38:21.019Z",
+    "status": 200
   },
   {
     "id": "ca-registration",
     "url": "https://www.sos.ca.gov/business-programs/business-entities/starting-business",
-    "checkedAt": "2026-10-04T13:08:05.991Z",
-    "status": 200,
-    "finalUrl": "https://www.sos.ca.gov/business-programs/business-entities/starting-business"
+    "checkedAt": "2026-10-05T12:38:21.019Z",
+    "status": 200
   },
   {
     "id": "tx-registration",
     "url": "https://www.sos.state.tx.us/corp/do-business.shtml",
-    "checkedAt": "2026-10-04T13:08:05.991Z",
-    "status": 200,
-    "finalUrl": "https://www.sos.state.tx.us/corp/do-business.shtml"
+    "checkedAt": "2026-10-05T12:38:21.019Z",
+    "status": 200
+  },
+  {
+    "id": "local-directory",
+    "url": "https://www.usa.gov/local-governments",
+    "checkedAt": "2026-10-05T12:38:21.018Z",
+    "status": 200
   },
   {
     "id": "usps",
     "url": "https://www.usps.com/business/business-shipping.htm",
-    "checkedAt": "2026-10-04T13:08:14.590Z",
-    "status": 200,
-    "finalUrl": "https://www.usps.com/business/business-shipping.htm"
+    "checkedAt": "2026-10-05T12:38:32.297Z",
+    "status": 200
   },
   {
     "id": "safer",
     "url": "https://safer.fmcsa.dot.gov/CompanySnapshot.aspx",
-    "checkedAt": "2026-10-04T13:08:14.590Z",
-    "status": 200,
-    "finalUrl": "https://safer.fmcsa.dot.gov/CompanySnapshot.aspx"
-  },
-  {
-    "id": "saltbox",
-    "url": "https://www.saltbox.com/location/atlanta-upper-westside",
-    "checkedAt": "2026-10-04T13:08:14.591Z",
-    "status": 200,
-    "finalUrl": "https://www.saltbox.com/location/atlanta-upper-westside"
+    "checkedAt": "2026-10-05T12:38:32.296Z",
+    "status": 200
   },
   {
     "id": "carrier-video",
     "url": "https://www.fmcsa.dot.gov/carrier-safety/new-entrant/new-entrant-program-videos",
-    "checkedAt": "2026-10-04T13:08:14.590Z",
-    "status": 200,
-    "finalUrl": "https://www.fmcsa.dot.gov/carrier-safety/new-entrant/new-entrant-program-videos"
+    "checkedAt": "2026-10-05T12:38:32.297Z",
+    "status": 200
+  },
+  {
+    "id": "saltbox",
+    "url": "https://www.saltbox.com/location/atlanta-upper-westside",
+    "checkedAt": "2026-10-05T12:38:32.297Z",
+    "status": 200
   }
 ]
