@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-04T13:13:40.237Z",
+  "filesReviewed": 36,
+  "checks": [
+    "unsanitized HTML",
+    "dynamic evaluation",
+    "private key",
+    "AWS access key",
+    "GitHub token",
+    "OpenAI key",
+    "sensitive console logging"
+  ],
+  "findings": [],
+  "scope": "Pattern checks support manual source review. Not a penetration test or complete secrets/security audit. Deployment header enforcement requires a live host."
+}

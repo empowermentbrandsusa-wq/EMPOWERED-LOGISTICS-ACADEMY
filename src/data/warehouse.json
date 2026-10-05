@@ -1,0 +1,833 @@
+[
+  {
+    "id": "warehouse-01",
+    "number": 1,
+    "title": "Warehouse vs fulfillment center",
+    "body": "Storage protects and locates inventory. Fulfillment adds order processing, picking, packing and shipping handoff. One facility can do both, but service promises and labor demands differ.",
+    "example": "A client needing pallet storage creates a different workflow from a brand shipping single-item orders.",
+    "action": "Define deliverables and handoffs before quoting a customer. Draw receiving, storage and outbound flows.",
+    "implication": "The operating decision: Define deliverables and handoffs before quoting a customer. Draw receiving, storage and outbound flows. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Design for the service",
+      "Define deliverables and handoffs before quoting a customer",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["The services performed", "Only the building size"],
+      "correct": 0
+    },
+    "resources": ["warehouse-story", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Design for the service",
+        "text": "Separate space for inventory from the work of converting orders into shipments. Map receiving, storage, picking, packing, outbound staging and returns. A business can offer selected services without claiming to perform the entire supply chain."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-02",
+    "number": 2,
+    "title": "Warehouse business models",
+    "body": "Choose storage, fulfillment, cross-dock, dedicated operations or a defined combination. Renting space is different from selling managed services. State who owns inventory and who bears loss.",
+    "example": "A multi-client operation bills activity while a dedicated operation may use a negotiated service contract.",
+    "action": "Choose one service scope to validate before bundling additional activities. Define custody, scope and billing units.",
+    "implication": "The operating decision: Choose one service scope to validate before bundling additional activities. Define custody, scope and billing units. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Make scope explicit",
+      "Choose one service scope to validate before bundling additional activities",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Scope and customer needs",
+        "All warehouses sell the same service"
+      ],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Make scope explicit",
+        "text": "Compare storage-only custody, order fulfillment, cross-dock and dedicated client operations. Write down which party owns inventory and equipment and who makes disposition decisions. Subcontracted transport needs a defined handoff instead of an implied promise."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-03",
+    "number": 3,
+    "title": "Finding warehouse space",
+    "body": "Start with demand, access and workflow before touring buildings. Compare location, utility capacity, permitted use, docks, clearance, fire protection and total occupancy costs.",
+    "example": "Cheap rent is unhelpful when customers’ trucks cannot access the site.",
+    "action": "Do not sign a long obligation based only on an appealing building. Prepare a facility brief for a commercial broker.",
+    "implication": "The operating decision: Do not sign a long obligation based only on an appealing building. Prepare a facility brief for a commercial broker. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Start with demand evidence",
+      "Do not sign a long obligation based only on an appealing building",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Operational suitability", "Lowest rent alone"],
+      "correct": 0
+    },
+    "resources": ["sba", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Start with demand evidence",
+        "text": "Interview customers about item sizes, volume, receiving pattern, peaks and shipment frequency. Translate that information into a facility brief. Tour properties with the people qualified to assess real-estate, building and safety questions."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-04",
+    "number": 4,
+    "title": "Industrial real estate",
+    "body": "Industrial property decisions involve more than floor area. Service charges, maintenance obligations, expansion options and site constraints can change usable capacity and cost.",
+    "example": "A quoted base rent excludes charges that the operator must still pay.",
+    "action": "Use written property quotes and record what is excluded. Request a complete occupancy-cost schedule.",
+    "implication": "The operating decision: Use written property quotes and record what is excluded. Request a complete occupancy-cost schedule. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Request the full occupancy picture",
+      "Use written property quotes and record what is excluded",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Total occupancy cost", "Only the headline rent"],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Request the full occupancy picture",
+        "text": "Compare base rent with common-area charges, taxes, insurance obligations, utilities, maintenance and alterations. Confirm whether quoted pricing is annual or monthly. A location that lowers rent but raises transport and labor complexity may not reduce total cost."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-05",
+    "number": 5,
+    "title": "Lease vs purchase",
+    "body": "Leasing and buying allocate capital and risk differently. Compare term, deposits, repairs, financing and exit flexibility. Obtain legal and property review; neither option is universally best.",
+    "example": "A longer lease can outlast an uncertain customer contract.",
+    "action": "Stress-test vacancy or loss of the largest client. Model a customer loss and exit scenario.",
+    "implication": "The operating decision: Stress-test vacancy or loss of the largest client. Model a customer loss and exit scenario. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Model flexibility and exit",
+      "Stress-test vacancy or loss of the largest client",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Risk and capital tradeoffs", "Ownership is always better"],
+      "correct": 0
+    },
+    "resources": ["sba", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Model flexibility and exit",
+        "text": "Evaluate deposit, term, renewal, repair allocation, alterations, financing and exit conditions. Tie property commitments to credible customer demand and reserve capacity. Professional review matters because obligations can continue when a customer leaves."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-06",
+    "number": 6,
+    "title": "Zoning concepts",
+    "body": "Confirm intended use with local planning and building authorities. Storage, fulfillment, traffic, hazardous goods and alterations may need different approvals. A broker’s assurance is not a permit.",
+    "example": "A former storage building may not automatically allow your planned activity.",
+    "action": "Keep written approvals and unresolved conditions with the property decision. Ask the responsible local offices for written guidance.",
+    "implication": "The operating decision: Keep written approvals and unresolved conditions with the property decision. Ask the responsible local offices for written guidance. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Verify before committing",
+      "Keep written approvals and unresolved conditions with the property decision",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Official use verification",
+        "Any industrial-looking building works"
+      ],
+      "correct": 0
+    },
+    "resources": ["sba", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Verify before committing",
+        "text": "Discuss intended activities, traffic, storage types, alterations and any restricted goods with local authorities. Confirm zoning, occupancy, fire and building questions using official guidance. Requirements depend on the specific site and jurisdiction."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-07",
+    "number": 7,
+    "title": "Dock requirements",
+    "body": "Match trailer height, yard access, turning space, loading devices and appointment capacity to actual inbound and outbound vehicles. Plan safe separation of people and moving equipment.",
+    "example": "Ground-level van loading and palletized trailer unloading need different arrangements.",
+    "action": "Document inbound and outbound vehicle needs in the facility brief. Map vehicle types and safe dock procedures.",
+    "implication": "The operating decision: Document inbound and outbound vehicle needs in the facility brief. Map vehicle types and safe dock procedures. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Plan vehicle interfaces",
+      "Document inbound and outbound vehicle needs in the facility brief",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Vehicle and workflow fit", "Every dock serves every truck"],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Plan vehicle interfaces",
+        "text": "Inspect dock configuration, yard access, turning space, appointment flow and loading devices for the actual vehicles. Separate pedestrians from moving equipment and control trailer/dock hazards through an appropriate safety program."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-08",
+    "number": 8,
+    "title": "Square footage",
+    "body": "Gross floor area is not all revenue-producing storage. Reserve room for aisles, receiving, packing, returns, equipment, fire access and offices. Model usable capacity separately.",
+    "example": "A large receiving buffer reduces storage space but can prevent congestion.",
+    "action": "Base capacity assumptions on a reviewed layout. Draft a layout and identify non-storage areas.",
+    "implication": "The operating decision: Base capacity assumptions on a reviewed layout. Draft a layout and identify non-storage areas. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Calculate usable zones",
+      "Base capacity assumptions on a reviewed layout",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Usable workflow capacity",
+        "Every square foot can hold stock"
+      ],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Calculate usable zones",
+        "text": "Gross area includes spaces that support service but cannot all be sold as storage. Allocate receiving buffers, safe aisles, packing, returns, equipment and emergency access. Test the layout with expected peaks, not only average inventory."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-09",
+    "number": 9,
+    "title": "Clear height",
+    "body": "Vertical space can support storage only when racks, equipment, sprinklers, floor capacity and the goods permit it. Do not convert building height directly into saleable pallet positions.",
+    "example": "Tall ceilings alone do not approve tall racks.",
+    "action": "Verify rack and clearance design for the exact building. Have the storage design professionally reviewed.",
+    "implication": "The operating decision: Verify rack and clearance design for the exact building. Have the storage design professionally reviewed. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Check vertical constraints",
+      "Verify rack and clearance design for the exact building",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Safe design constraints", "Ceiling height alone"],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Check vertical constraints",
+        "text": "Rack design, floor loading, fire protection, goods and handling equipment determine safe usable height. A taller building may increase capacity only with appropriate design and approval. Seek qualified review rather than multiplying floor area by an arbitrary height factor."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-10",
+    "number": 10,
+    "title": "Racking",
+    "body": "Racks need suitable design, load ratings, installation, inspections and protection. Site-specific engineering and fire requirements may apply. Used racks still require assessment.",
+    "example": "A damaged upright changes safety even when the rack looks serviceable.",
+    "action": "Use qualified design/inspection support and retain equipment records. Document rack capacity and inspection responsibilities.",
+    "implication": "The operating decision: Use qualified design/inspection support and retain equipment records. Document rack capacity and inspection responsibilities. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Treat racks as safety equipment",
+      "Use qualified design/inspection support and retain equipment records",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Approved design and condition", "Any used rack is safe"],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Treat racks as safety equipment",
+        "text": "Evaluate load ratings, installation, anchoring, condition and inspection. Document who can change the layout or loading pattern. Damage or unapproved changes can undermine an otherwise suitable system."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-11",
+    "number": 11,
+    "title": "Equipment",
+    "body": "Choose tools to fit the flow: pallet jacks, conveyors, scales, packing benches or forklifts as needed. Include maintenance, inspection, charging and training costs.",
+    "example": "A manual process may fit a limited pilot better than oversized automation.",
+    "action": "Tie each equipment quote to a task and capacity requirement. Match each tool to a workflow and trained user.",
+    "implication": "The operating decision: Tie each equipment quote to a task and capacity requirement. Match each tool to a workflow and trained user. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Buy for a measured workflow",
+      "Tie each equipment quote to a task and capacity requirement",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Fit to task and safe operation",
+        "More machines always improve profit"
+      ],
+      "correct": 0
+    },
+    "resources": ["forklift", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Buy for a measured workflow",
+        "text": "Specify the task, load, travel distance and throughput before selecting equipment. Include inspection, maintenance, training, charging and backup needs. Compare a manageable manual pilot with equipment commitments before purchasing automation."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-12",
+    "number": 12,
+    "title": "Forklifts",
+    "body": "Powered industrial trucks create serious workplace hazards. Verify applicable training, evaluation, inspection and operating requirements. Keep pedestrians and truck movements safely managed.",
+    "example": "A licensed road driver is not automatically qualified to operate a forklift at your site.",
+    "action": "Assign training, inspection and supervision responsibilities before use. Review OSHA resources and establish a site-specific program.",
+    "implication": "The operating decision: Assign training, inspection and supervision responsibilities before use. Review OSHA resources and establish a site-specific program. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Establish an operating program",
+      "Assign training, inspection and supervision responsibilities before use",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Proper training and site procedures",
+        "Driving experience alone"
+      ],
+      "correct": 0
+    },
+    "resources": ["forklift", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Establish an operating program",
+        "text": "Review applicable OSHA standards and site-specific training/evaluation requirements. Inspect trucks and control interactions with pedestrians, docks and stored loads. A purchase receipt is not evidence that a worker is qualified."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-13",
+    "number": 13,
+    "title": "Scanners",
+    "body": "Barcode tools link goods to records. Test label readability, wireless coverage, battery life and exception handling. Scans are useful only when the underlying item and location data are correct.",
+    "example": "A valid scan of an incorrect SKU still produces a bad inventory record.",
+    "action": "Practice missing, duplicated and unreadable labels without inventing stock events. Test receiving through shipment with sample items.",
+    "implication": "The operating decision: Practice missing, duplicated and unreadable labels without inventing stock events. Test receiving through shipment with sample items. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Test the complete scan chain",
+      "Practice missing, duplicated and unreadable labels without inventing stock events",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Correct data and workflow", "A beep guarantees accuracy"],
+      "correct": 0
+    },
+    "resources": ["warehouse-story", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Test the complete scan chain",
+        "text": "Use sample records to receive, locate, pick, ship and return an item. Verify label identity, connectivity, battery management and exception behavior. A scanner cannot correct an inaccurate master-data record by itself."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-14",
+    "number": 14,
+    "title": "WMS",
+    "body": "A warehouse management system records stock, locations and tasks. Evaluate client integrations, permissions, audits and recovery. Test real workflows before migrating inventory.",
+    "example": "An integration failure pauses orders even when goods are on the shelf.",
+    "action": "Write an outage process before migrating real inventory. Create a sample SKU and test receive, pick, count and return.",
+    "implication": "The operating decision: Write an outage process before migrating real inventory. Create a sample SKU and test receive, pick, count and return. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Validate integration and recovery",
+      "Write an outage process before migrating real inventory",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Workflow and data reliability",
+        "Software replaces inventory control"
+      ],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Validate integration and recovery",
+        "text": "Define required client/order interfaces, inventory states, user roles and audit records. Test failures and restoration using synthetic data. Confirm export and support access so the operation is not trapped when one integration stops working."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-15",
+    "number": 15,
+    "title": "Labor",
+    "body": "Plan staffing around throughput, complexity and peaks. Include training, supervision, lawful compensation and applicable employment costs. Productivity targets must support safe work.",
+    "example": "Order spikes can raise labor needs before client invoices are collected.",
+    "action": "Review applicable wage, classification and employment obligations before hiring. Estimate tasks and hours, then verify staffing obligations.",
+    "implication": "The operating decision: Review applicable wage, classification and employment obligations before hiring. Estimate tasks and hours, then verify staffing obligations. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Staff the actual tasks",
+      "Review applicable wage, classification and employment obligations before hiring",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Workload plus safe staffing",
+        "One headcount fits every peak"
+      ],
+      "correct": 0
+    },
+    "resources": ["labor", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Staff the actual tasks",
+        "text": "Estimate time for receiving, putaway, picking, packing, counts, exceptions and supervision. Include training and peak coverage. Labor planning must support safe work rather than hiding congestion behind an ambitious productivity target."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-16",
+    "number": 16,
+    "title": "Insurance",
+    "body": "Discuss property, liability, inventory custody, cargo movements, workers and business interruption with a qualified broker. Clarify whose inventory is insured and under what valuation and exclusions.",
+    "example": "Client-owned inventory is not automatically covered by your building policy.",
+    "action": "Compare quotes against the actual services and exclusions. Obtain quotes against service agreements and goods handled.",
+    "implication": "The operating decision: Compare quotes against the actual services and exclusions. Obtain quotes against service agreements and goods handled. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Clarify custody coverage",
+      "Compare quotes against the actual services and exclusions",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Coverage matched to custody",
+        "A property policy covers everything"
+      ],
+      "correct": 0
+    },
+    "resources": ["insurance", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Clarify custody coverage",
+        "text": "Describe goods, values, handling, facility and transport responsibility to a qualified broker. Ask how client inventory, damage, theft and interruption are addressed and what contract promises exceed coverage."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-17",
+    "number": 17,
+    "title": "Security",
+    "body": "Control access, record custody and protect customer and inventory data. Decide who can enter, export records or change stock. Establish incident response and retain only necessary information.",
+    "example": "A shared scanner account makes it hard to investigate a stock adjustment.",
+    "action": "Test who can change, view and export each record. Assign access roles and an incident escalation plan.",
+    "implication": "The operating decision: Test who can change, view and export each record. Assign access roles and an incident escalation plan. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Control access and evidence",
+      "Test who can change, view and export each record",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Controlled access and traceability",
+        "Shared passwords are sufficient"
+      ],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Control access and evidence",
+        "text": "Assign individual accounts and physical access according to responsibilities. Restrict stock adjustments and data exports. Maintain appropriate incident records, escalation and recovery. Avoid unnecessary retention of customer identity data."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-18",
+    "number": 18,
+    "title": "Inventory management",
+    "body": "Maintain reliable item, quantity, condition and location records. Use cycle counts and reconcile discrepancies rather than silently changing balances. Define ownership and adjustment authority.",
+    "example": "A return enters inspection before it becomes available for sale.",
+    "action": "Document adjustment authority and investigate repeated errors. Set counting and discrepancy rules.",
+    "implication": "The operating decision: Document adjustment authority and investigate repeated errors. Set counting and discrepancy rules. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Reconcile instead of guessing",
+      "Document adjustment authority and investigate repeated errors",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Accurate reconciled records",
+        "Physical stock needs no record"
+      ],
+      "correct": 0
+    },
+    "resources": ["warehouse-story", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Reconcile instead of guessing",
+        "text": "Define item identity, location, condition and availability. Establish cycle-count and discrepancy review procedures. Segregate returns and disputed stock until authorized decisions are recorded. Accurate data helps both customer trust and service costing."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-19",
+    "number": 19,
+    "title": "Receiving",
+    "body": "Reconcile arriving goods to expected documents, record quantity and condition and isolate discrepancies. Establish when custody is accepted and how the client is notified.",
+    "example": "A damaged carton should be recorded before clean inventory is booked.",
+    "action": "Create a client notification and exception-isolation procedure. Write a receiving and exception checklist.",
+    "implication": "The operating decision: Create a client notification and exception-isolation procedure. Write a receiving and exception checklist. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Accept goods deliberately",
+      "Create a client notification and exception-isolation procedure",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Verified quantity and condition",
+        "Sign first without inspection"
+      ],
+      "correct": 0
+    },
+    "resources": ["warehouse-story", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Accept goods deliberately",
+        "text": "Check expected documents, identifiers, quantity and condition, and record discrepancies before normal stock entry. Know when custody begins. Receiving failures become picking problems later if the operation silently books incorrect inventory."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-20",
+    "number": 20,
+    "title": "Pick and pack",
+    "body": "Picking selects the correct items; packing protects them for the intended transport. Add checks for SKU, quantity, packaging and label identity. Mistakes cause returns, claims and rework.",
+    "example": "Two sneaker sizes look similar, so the SKU check matters more than appearance.",
+    "action": "Use a small sample order set to test accuracy before a live pilot. Test one order from inventory to outbound handoff.",
+    "implication": "The operating decision: Use a small sample order set to test accuracy before a live pilot. Test one order from inventory to outbound handoff. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Design quality checks",
+      "Use a small sample order set to test accuracy before a live pilot",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Item verification and protection",
+        "Visual similarity is enough"
+      ],
+      "correct": 0
+    },
+    "resources": ["tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Design quality checks",
+        "text": "Connect the order to the right SKU, quantity, packaging and shipping identity. Review high-error items and special handling. Add a controlled exception path for missing goods instead of substituting products without authorization."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-21",
+    "number": 21,
+    "title": "Sortation",
+    "body": "Sortation groups shipments by destination, lane or carrier. Control label visibility and scan reconciliation at every handoff. A wrong lane can create delay and extra transport cost.",
+    "example": "A parcel destined for one city enters a different outbound cage.",
+    "action": "Test an incorrectly labeled parcel and define who resolves it. Define lane labels and mismatch escalation.",
+    "implication": "The operating decision: Test an incorrectly labeled parcel and define who resolves it. Define lane labels and mismatch escalation. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Protect outbound identity",
+      "Test an incorrectly labeled parcel and define who resolves it",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Correct outbound grouping",
+        "All outbound parcels share a lane"
+      ],
+      "correct": 0
+    },
+    "resources": ["tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Protect outbound identity",
+        "text": "Define lanes, containers and handoff scans for the network’s destination grouping. Keep labels visible and reconcile exceptions. A mis-sort can create delay and extra movement even if the original pick was accurate."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-22",
+    "number": 22,
+    "title": "Cross-docking",
+    "body": "Cross-docking transfers inbound goods to outbound movement with limited storage. It depends on synchronized arrivals, matching records and staging capacity. It is not simply free storage.",
+    "example": "A late outbound truck turns a short dwell into an unplanned capacity problem.",
+    "action": "Create a contingency for a late truck or mismatched shipment. Map appointments and contingency staging.",
+    "implication": "The operating decision: Create a contingency for a late truck or mismatched shipment. Map appointments and contingency staging. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Synchronize movement",
+      "Create a contingency for a late truck or mismatched shipment",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Timed inbound-to-outbound transfer",
+        "Permanent storage by another name"
+      ],
+      "correct": 0
+    },
+    "resources": ["definitions", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Synchronize movement",
+        "text": "Map arrival appointments, matching documents, staging and outbound departures. Model delays and temporary inventory custody. Limited dwell requires coordination; it does not remove labor, safety or facility costs."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-23",
+    "number": 23,
+    "title": "Client acquisition",
+    "body": "Choose a service niche and qualify client volume, SKU complexity, peaks and service expectations. Price a pilot from the real workflow. Avoid committing space on unsupported sales forecasts.",
+    "example": "A small brand with many unique SKUs may demand more handling than its order count suggests.",
+    "action": "Write a service scope with explicit exclusions before accepting stock. Interview prospects and write a scoped pilot.",
+    "implication": "The operating decision: Write a service scope with explicit exclusions before accepting stock. Interview prospects and write a scoped pilot. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Qualify the business you serve",
+      "Write a service scope with explicit exclusions before accepting stock",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Workflow qualification", "Order count alone defines effort"],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Qualify the business you serve",
+        "text": "Ask about SKU count, order composition, receiving, peaks, returns, systems and service expectations. Customer complexity can matter as much as order volume. A narrow pilot gives evidence for a reliable quote."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-24",
+    "number": 24,
+    "title": "Pricing models",
+    "body": "Separate receiving, storage, picks, packaging, special handling and minimum commitments where relevant. Define billable units and peak or exception work. A low order fee can hide other costs.",
+    "example": "An order with five items uses more pick effort than a single-item order.",
+    "action": "Model a multi-item order, a return and a low-volume month. Build a quote with explicit inclusions and exclusions.",
+    "implication": "The operating decision: Model a multi-item order, a return and a low-volume month. Build a quote with explicit inclusions and exclusions. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Price identifiable activities",
+      "Model a multi-item order, a return and a low-volume month",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Clear activity and storage units", "One universal fee"],
+      "correct": 0
+    },
+    "resources": ["break-even", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Price identifiable activities",
+        "text": "Separate storage and handling units, inclusions, minimums, special work and peak exceptions where applicable. State how units are measured and invoices reconciled. An appealing pick fee is incomplete without the rest of the service schedule."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-25",
+    "number": 25,
+    "title": "Transportation partnerships",
+    "body": "Agree pickup times, cutoff windows, custody records, exception handling and insurance responsibilities. Verify the actual contracting party and authorization where applicable.",
+    "example": "Missed pickup makes an on-time packed order late to the customer.",
+    "action": "Document the backup plan for a missed pickup. Document the outbound handoff and backup plan.",
+    "implication": "The operating decision: Document the backup plan for a missed pickup. Document the outbound handoff and backup plan. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Agree on a traceable handoff",
+      "Document the backup plan for a missed pickup",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Reliable documented handoffs",
+        "Packing completes all obligations"
+      ],
+      "correct": 0
+    },
+    "resources": ["authority", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Agree on a traceable handoff",
+        "text": "Confirm pickup timing, cargo acceptance, custody events, reporting and failure response with transport partners. Identify who invoices whom and who handles claims. Verify credentials and operating requirements where applicable."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-26",
+    "number": 26,
+    "title": "Profitability",
+    "body": "Model revenue by service, variable activity costs and fixed occupancy and staffing. Include underutilization and payment timing. Operating profit is not after-tax cash or a guaranteed return.",
+    "example": "A quiet month leaves rent due while order-related revenue falls.",
+    "action": "Use observed workload and actual quotes to revise the simulator. Use the warehouse simulator and a low-demand case.",
+    "implication": "The operating decision: Use observed workload and actual quotes to revise the simulator. Use the warehouse simulator and a low-demand case. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Build a contribution model",
+      "Use observed workload and actual quotes to revise the simulator",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Utilization and complete costs", "Space guarantees income"],
+      "correct": 0
+    },
+    "resources": ["break-even", "tour", "startup", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Build a contribution model",
+        "text": "Estimate fixed occupancy and staffing, variable service costs and revenue by activity. Keep startup cash and monthly allocations separate. Underutilization, errors and payment delays can materially change viability."
+      }
+    ]
+  },
+  {
+    "id": "warehouse-27",
+    "number": 27,
+    "title": "Scaling",
+    "body": "Prove inventory accuracy, service reliability and contribution before adding clients or facilities. Growth needs systems, supervisors, safety controls and working capital.",
+    "example": "A second building doubles coordination demands without automatically doubling utilization.",
+    "action": "Set explicit service, utilization and cash thresholds for expansion. Create capacity triggers and a staged expansion plan.",
+    "implication": "The operating decision: Set explicit service, utilization and cash thresholds for expansion. Create capacity triggers and a staged expansion plan. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Scale the control system",
+      "Set explicit service, utilization and cash thresholds for expansion",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Repeatable systems and viable demand",
+        "More square footage guarantees success"
+      ],
+      "correct": 0
+    },
+    "resources": ["startup", "tour", "saltbox"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Scale the control system",
+        "text": "Document receiving, inventory, order quality, safety, staffing and client communication before adding space. Growth adds supervisors, data integrations and cash needs. Additional floor area does not automatically create customer demand."
+      }
+    ]
+  }
+]

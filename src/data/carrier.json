@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "carrier-01",
+    "number": 1,
+    "title": "What is last mile?",
+    "body": "The final movement takes a parcel from a local handoff to its recipient. It is a service operation: delivery instructions, timing, safe driving and exception handling all matter.",
+    "example": "A parcel arrives at a local station after moving between cities. Your responsibility begins at the agreed handoff, not at checkout.",
+    "action": "Map the handoff, the service area and the end-of-day return process.",
+    "implication": "The operating decision: Map the handoff, the service area and the end-of-day return process. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Define the service boundary",
+      "Map the handoff, the service area and the end-of-day return process",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "The final leg to the recipient",
+        "The manufacture of the product"
+      ],
+      "correct": 0
+    },
+    "resources": ["dot", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Define the service boundary",
+        "text": "Identify where you accept custody, which delivery events count as service and when responsibility ends. Map customer instructions, access failures, damage and returns. A network may combine or skip facilities, so learn the actual handoffs rather than assuming every parcel follows an identical building sequence."
+      },
+      {
+        "title": "Observe the operation",
+        "text": "If permitted, observe a complete day from check-in through reconciliation. Record work time as well as miles and delivered units. Ask what happens when the recipient is unavailable, a parcel is missing or a package is unsafe to handle."
+      }
+    ]
+  },
+  {
+    "id": "carrier-02",
+    "number": 2,
+    "title": "What is a carrier?",
+    "body": "A carrier undertakes transportation. A business receiving route work accepts obligations for capacity, service and reporting under its agreement. Driving and running that business overlap, but they are different responsibilities.",
+    "example": "An operator receives an assigned route and provides a qualified driver and an approved vehicle. The client measures completed service.",
+    "action": "Write down who signs the agreement and who is responsible for each failure.",
+    "implication": "The operating decision: Write down who signs the agreement and who is responsible for each failure. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Identify the accountable business",
+      "Write down who signs the agreement and who is responsible for each failure",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "The business undertaking transportation",
+        "Only the person scanning parcels"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "authority",
+      "tour",
+      "startup",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Identify the accountable business",
+        "text": "Determine whose name is on the transportation agreement, invoice and coverage documents. Confirm whether you are providing labor, operating equipment under an arrangement or accepting broader service obligations. Do not use the word carrier to imply permissions or capabilities you have not verified."
+      },
+      {
+        "title": "Define capacity honestly",
+        "text": "Describe operating area, available vehicles, staffing, delivery windows and backup arrangements. A customer buys dependable service, not merely access to a van. State what you can perform yourself and what depends on approved subcontractors."
+      }
+    ]
+  },
+  {
+    "id": "carrier-03",
+    "number": 3,
+    "title": "Driver vs owner-operator vs carrier",
+    "body": "A driver performs delivery labor. An owner-operator operates their vehicle and bears agreed business costs. A carrier manages contracted transport obligations and may employ drivers. These labels alone do not establish employment or regulatory status.",
+    "example": "You can drive your first route and still need to manage invoices, claims and coverage as the contracting business.",
+    "action": "Draw three columns: labor, equipment and contractual responsibility.",
+    "implication": "The operating decision: Draw three columns: labor, equipment and contractual responsibility. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Separate three decisions",
+      "Draw three columns: labor, equipment and contractual responsibility",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["The responsibilities and agreement", "The logo on a van"],
+      "correct": 0
+    },
+    "resources": ["labor", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Separate three decisions",
+        "text": "Equipment ownership, who performs the labor and who undertakes the contract can be different. Draw the relationships before deciding what you are starting. Some owner-operators provide a vehicle and labor to another carrier; others contract directly with shippers. The actual arrangement matters more than the label."
+      },
+      {
+        "title": "Ask about control and expenses",
+        "text": "Clarify who assigns work, bears costs, controls schedules and supplies tools. Confirm worker classification with qualified advice and current rules. Compare the entire agreement, including waiting and returns, instead of assuming that a contractor label creates higher take-home earnings."
+      }
+    ]
+  },
+  {
+    "id": "carrier-04",
+    "number": 4,
+    "title": "How warehouse routes work",
+    "body": "A facility prepares parcels and assigns service work according to its network process. A route is a planned set of stops, not a permanent asset you automatically own. Volume and availability can change.",
+    "example": "Two hundred packages may go to fewer than two hundred stops because an address can receive several parcels.",
+    "action": "Ask about volume, service area, start times and how work is allocated.",
+    "implication": "The operating decision: Ask about volume, service area, start times and how work is allocated. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Understand assignment and custody",
+      "Ask about volume, service area, start times and how work is allocated",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Packages and stops can differ",
+        "Every package is a unique stop"
+      ],
+      "correct": 0
+    },
+    "resources": ["tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Understand assignment and custody",
+        "text": "Ask whether routes are assigned daily, dedicated to a service area or subject to seasonal changes. Verify who provides the manifest, how discrepancies are reported and which scan transfers custody. Record unassigned, missing and damaged parcels through the approved process."
+      },
+      {
+        "title": "Volume is not ownership",
+        "text": "A route description may represent an opportunity to perform work rather than a transferable business asset. Ask whether work is guaranteed, how routes can be removed and whether subcontracting is permitted. Do not finance equipment against an unsupported verbal volume forecast."
+      }
+    ]
+  },
+  {
+    "id": "carrier-05",
+    "number": 5,
+    "title": "How carrier contracts work",
+    "body": "Read the scope, pricing unit, service standards, payment terms, claims, deductions, termination and insurance schedule together. A headline rate means little without its obligations. Obtain professional review before signing material commitments.",
+    "example": "A higher route fee may include return trips or waiting time that another quote charges separately.",
+    "action": "Build a questions list and reconcile every schedule with the main agreement.",
+    "implication": "The operating decision: Build a questions list and reconcile every schedule with the main agreement. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Read the commercial schedule",
+      "Build a questions list and reconcile every schedule with the main agreement",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Total terms and obligations", "Only the advertised rate"],
+      "correct": 0
+    },
+    "resources": [
+      "sba",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Read the commercial schedule",
+        "text": "Build a checklist covering billable units, payment timing, deductions, rescues, returns, waiting, claims, insurance, service levels and termination. If documents disagree, get a written clarification. Avoid accepting a rate while leaving the operational scope undefined."
+      },
+      {
+        "title": "Stress-test the downside",
+        "text": "Consider a week of low volume, an equipment breakdown and delayed payment. Identify which costs continue and what the agreement permits the client to deduct. Obtain qualified contract review for material commitments; the academy cannot determine enforceability or replace a signed agreement."
+      }
+    ]
+  },
+  {
+    "id": "carrier-06",
+    "number": 6,
+    "title": "Choosing a vehicle",
+    "body": "Match the service to dimensions, usable payload, package protection, parking and loading access. Payload includes people and equipment. Ask the client to accept the specific vehicle and disclose commercial use to the insurer.",
+    "example": "A roomy SUV may still fail a route’s package-volume requirement. A high-roof van can help access but costs more to operate.",
+    "action": "Record the vehicle rating, actual load and written contract acceptance.",
+    "implication": "The operating decision: Record the vehicle rating, actual load and written contract acceptance. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Measure usable capacity",
+      "Record the vehicle rating, actual load and written contract acceptance",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Cargo and contract fit", "A vehicle’s appearance"],
+      "correct": 0
+    },
+    "resources": ["insurance", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Measure usable capacity",
+        "text": "Record cargo dimensions, loading aperture, vehicle ratings, people, equipment and anticipated package weight. A volume estimate is different from a weight limit. Keep cargo secure and protect visibility, access and safe handling. The exact model, year and configuration matter."
+      },
+      {
+        "title": "Acquire only after acceptance",
+        "text": "Before buying or renting, ask the contracting party to confirm the actual vehicle fits its requirements. Compare availability, mileage terms, downtime support and insurance. A lower payment is not lower operating cost if unreliable equipment prevents service."
+      }
+    ]
+  },
+  {
+    "id": "carrier-07",
+    "number": 7,
+    "title": "Starting your business",
+    "body": "Define the service and operating geography before choosing an entity and registering. Formation, tax accounts, local licensing and transport registration answer separate questions. A company name alone does not authorize all operations.",
+    "example": "An Atlanta LLC may still need local permissions and operation-specific review before accepting work.",
+    "action": "Use the state selector and contact the responsible agencies.",
+    "implication": "The operating decision: Use the state selector and contact the responsible agencies. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Create a formation checklist",
+      "Use the state selector and contact the responsible agencies",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Separate formation and operating requirements",
+        "LLC formation completes everything"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "ga-llc",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Create a formation checklist",
+        "text": "Choose an operating scope and jurisdiction, then investigate entity formation, tax identity, banking and local licensing. Keep official confirmation and filing receipts organized. An LLC is not a substitute for required coverage, operating permissions or a properly priced contract."
+      },
+      {
+        "title": "Track ongoing obligations",
+        "text": "Make a calendar for filings, tax dates, insurance renewals and contract expirations. Use the Georgia examples only where applicable. Ask whether operating in another state creates additional registration obligations; do not assume one state filing resolves every location."
+      }
+    ]
+  },
+  {
+    "id": "carrier-08",
+    "number": 8,
+    "title": "Business banking and bookkeeping",
+    "body": "Separate business transactions, reconcile statements and retain receipts, mileage records, invoices and contract deductions. Track cash received separately from revenue earned. Ask a tax professional how vehicle expenses apply to your facts.",
+    "example": "A route completed today may be paid weeks later while fuel and payroll are due earlier.",
+    "action": "Create expense categories and a weekly reconciliation routine.",
+    "implication": "The operating decision: Create expense categories and a weekly reconciliation routine. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Build a weekly close",
+      "Create expense categories and a weekly reconciliation routine",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Profit and cash timing differ",
+        "Revenue is immediately available cash"
+      ],
+      "correct": 0
+    },
+    "resources": ["tax", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Build a weekly close",
+        "text": "Reconcile gross invoices, deductions and collected cash against route records. Separate fuel, labor, vehicle, coverage, systems and administration. Keep receipts and maintain a mileage log where relevant. Ask a tax professional which deductions and documentation apply rather than treating the model as a tax return."
+      },
+      {
+        "title": "Plan the cash gap",
+        "text": "Write a simple payment calendar: when drivers, fuel, vehicle bills and insurers need cash, and when clients are expected to pay. Include a delayed-payment case. Accounting profit can coexist with a cash shortfall, so growth must fund operations before collections arrive."
+      }
+    ]
+  },
+  {
+    "id": "carrier-09",
+    "number": 9,
+    "title": "Commercial insurance",
+    "body": "Describe cargo, territory, vehicle ownership, rental use, drivers and contractual limits accurately to a broker. Discuss auto liability, cargo, general liability and workers’ compensation as applicable. A certificate summarizes coverage; it does not rewrite exclusions.",
+    "example": "A client requests a COI, but a vehicle or delivery activity excluded by the policy remains a problem.",
+    "action": "Request written quotes against the actual contract and confirm required filings.",
+    "implication": "The operating decision: Request written quotes against the actual contract and confirm required filings. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Request comparable quotes",
+      "Request written quotes against the actual contract and confirm required filings",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Policy terms and actual use matter",
+        "Any COI covers any activity"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "insurance",
+      "tour",
+      "startup",
+      "authority",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Request comparable quotes",
+        "text": "Give each broker the same service description and contract coverage schedule. Ask about liability, cargo, general liability, hired/non-owned vehicles, authorized drivers, rentals and exclusions as relevant. Confirm deductibles and the cost of uninsured downtime. Premiums depend on the actual underwriting facts."
+      },
+      {
+        "title": "Verify evidence and filings",
+        "text": "A COI may be requested during onboarding, but the actual policy governs coverage. Ask which endorsements and filings apply and who submits them. Confirm named insured and business details match the operating arrangement; do not assume a document upload means coverage is accepted."
+      }
+    ]
+  },
+  {
+    "id": "carrier-10",
+    "number": 10,
+    "title": "DOT and operating authority concepts",
+    "body": "USDOT safety registration and operating authority are distinct. Weight, cargo, for-hire activity, geography and exemptions affect applicability. A local-looking delivery may form part of interstate commerce. State rules can also apply.",
+    "example": "Do not conclude a van needs no review just because it is below a federal weight threshold.",
+    "action": "Describe your full operation to FMCSA and the relevant state agency; confirm current registration channels.",
+    "implication": "The operating decision: Describe your full operation to FMCSA and the relevant state agency; confirm current registration channels. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Ask two separate questions",
+      "Describe your full operation to FMCSA and the relevant state agency; confirm current registration channels",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Evaluate the operation and each requirement",
+        "All local routes are exempt"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "dot",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Ask two separate questions",
+        "text": "First investigate USDOT safety registration. Separately investigate whether operating authority is required for the proposed for-hire service. Describe vehicle ratings, cargo and the full shipment movement, including origin and destination beyond your immediate route. Then check the state agency for intrastate obligations."
+      },
+      {
+        "title": "Avoid shortcut assumptions",
+        "text": "Small vehicle, local delivery and a subcontractor agreement are not automatic exemption determinations. Obtain current agency guidance on your actual operation, and confirm the registration channel as systems change. Keep the verification record with the business compliance calendar."
+      }
+    ]
+  },
+  {
+    "id": "carrier-11",
+    "number": 11,
+    "title": "Building a carrier packet",
+    "body": "A packet organizes documents a specific client asks to verify: business identity, tax form, coverage evidence, vehicle details, registrations where applicable, references and service capabilities. Requirements vary. Send sensitive documents only through a verified secure channel.",
+    "example": "A client may ask for a W-9 and COI but not your bank credentials in an ordinary email.",
+    "action": "Build a document index with owner, expiry and approved sharing method.",
+    "implication": "The operating decision: Build a document index with owner, expiry and approved sharing method. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Build an indexed packet",
+      "Build a document index with owner, expiry and approved sharing method",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Client-specific verified requirements",
+        "One universal packet"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "sba",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Build an indexed packet",
+        "text": "Create sections for business identity, service capability, requested tax forms, coverage evidence, vehicle records and applicable registrations. Maintain an expiry tracker and keep each document’s purpose clear. Send only what the verified counterparty needs, using an approved secure channel."
+      },
+      {
+        "title": "Verify the recipient",
+        "text": "Independently confirm the company, procurement contact and submission portal. A request for credentials or unusually sensitive documents should prompt verification. Do not publish private identity documents in a public repository or upload them to this academy; this release has no secure document portal."
+      }
+    ]
+  },
+  {
+    "id": "carrier-12",
+    "number": 12,
+    "title": "Finding routes",
+    "body": "Identify the real contracting party and procurement process. Speak with local shippers and logistics operators, research official programs and build evidence of capacity. An application is not a contract or a promise of work.",
+    "example": "An introduction at a facility starts a qualification conversation; it does not guarantee a daily route.",
+    "action": "Prepare a service-area sheet and ask how vendors qualify.",
+    "implication": "The operating decision: Prepare a service-area sheet and ask how vendors qualify. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Treat procurement as a process",
+      "Prepare a service-area sheet and ask how vendors qualify",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Qualification before commitment",
+        "Buying a route guarantees customers"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "startup",
+      "tour",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Treat procurement as a process",
+        "text": "List target shippers and operators whose cargo and geography fit your service. Ask how they onboard delivery businesses, what capacity evidence they require and who owns commercial approval. Build a short capability sheet showing genuine resources and service limits."
+      },
+      {
+        "title": "Inspect an actual offer",
+        "text": "Request a sample agreement, rate schedule and operating requirements. Verify the contracting company and the work allocation process before buying equipment. An application, introduction or public program page is not a promise of a route. Reject offers that cannot explain their payer or scope."
+      }
+    ]
+  },
+  {
+    "id": "carrier-13",
+    "number": 13,
+    "title": "Understanding route pricing",
+    "body": "Separate packages, stops, miles and time. Clarify which units are billable, failed attempts, pickups, returns, surcharges and deductions. Compare total operating contribution using conservative assumptions.",
+    "example": "A per-package rate changes revenue with parcel volume; your vehicle payment does not fall automatically on a slow day.",
+    "action": "Model a normal day, a low-volume day and a repair week.",
+    "implication": "The operating decision: Model a normal day, a low-volume day and a repair week. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Build the unit-cost picture",
+      "Model a normal day, a low-volume day and a repair week",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Billable units and complete costs", "Revenue alone"],
+      "correct": 0
+    },
+    "resources": ["break-even", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Build the unit-cost picture",
+        "text": "Create separate columns for billable packages, service stops, all miles and total work hours. Include loading, waiting, failed attempts, returns and empty travel. Identify which units earn revenue and which activities are included without additional compensation."
+      },
+      {
+        "title": "Test three scenarios",
+        "text": "Use a normal operating case, a lower-volume case and a disruption case. Change one assumption at a time to see sensitivity. A route that contributes at high volume may lose money at lower volume because monthly expenses remain due. Review payment timing separately from operating income."
+      }
+    ]
+  },
+  {
+    "id": "carrier-14",
+    "number": 14,
+    "title": "Warehouse check-in",
+    "body": "Arrive within the agreed window, follow the facility’s safety and identity process, confirm the assignment and escalate mismatches before departure. Do not enter restricted areas without authorization.",
+    "example": "Your manifest lists a parcel that cannot be found. Record the issue through the approved process before accepting custody.",
+    "action": "Create a check-in list and escalation contact sheet.",
+    "implication": "The operating decision: Create a check-in list and escalation contact sheet. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Use a repeatable arrival process",
+      "Create a check-in list and escalation contact sheet",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Resolve and document discrepancies",
+        "Leave first and investigate later"
+      ],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Use a repeatable arrival process",
+        "text": "Confirm location, time, authorized access, assigned vehicle and required equipment before arrival. Follow site rules and obtain instruction from the responsible team. Check the manifest and physical assignment, and use the approved process for discrepancies rather than creating your own scan workaround."
+      },
+      {
+        "title": "Prepare escalation contacts",
+        "text": "Keep dispatch, facility and emergency contacts accessible. Clarify how late arrivals, missing work and damaged parcels are reported. Record useful operational facts without collecting unnecessary customer data or filming restricted warehouse areas."
+      }
+    ]
+  },
+  {
+    "id": "carrier-15",
+    "number": 15,
+    "title": "Scanning and loading",
+    "body": "Reconcile the physical parcels to the manifest. Protect labels, organize by route order and keep heavy items secure. Stay within safe load ratings and maintain visibility and access. Use approved exception codes.",
+    "example": "A second scan catches a parcel intended for another route before it reaches the van.",
+    "action": "Practice a loading sequence and identify safe handling limits.",
+    "implication": "The operating decision: Practice a loading sequence and identify safe handling limits. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Load for traceability and safety",
+      "Practice a loading sequence and identify safe handling limits",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Reconcile custody and safe loading",
+        "Count without checking identifiers"
+      ],
+      "correct": 0
+    },
+    "resources": ["osha", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Load for traceability and safety",
+        "text": "Group parcels so the next handoff can be executed accurately without repeated searching or unsafe stacking. Keep identifiers readable, separate exceptions and secure the load. Follow client instructions and safe handling practices; do not sacrifice vehicle limits or access for one more package."
+      },
+      {
+        "title": "Reconcile before departure",
+        "text": "Compare scan records with the physical assignment and document discrepancies. Ask which scan events establish custody. A fast load that contains another route’s parcel creates downstream work, so accuracy at the handoff is part of the service economics."
+      }
+    ]
+  },
+  {
+    "id": "carrier-16",
+    "number": 16,
+    "title": "Route operations",
+    "body": "Plan for access restrictions, delivery windows, breaks, parking and exceptions. Follow road rules and use the approved communication channel. A fast route that creates injury or false delivery records is not good service.",
+    "example": "A gated address requires support instead of an invented delivery event.",
+    "action": "Write decision rules for access failure, damage and unsafe locations.",
+    "implication": "The operating decision: Write decision rules for access failure, damage and unsafe locations. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Create an exception playbook",
+      "Write decision rules for access failure, damage and unsafe locations",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Safe, documented execution", "Speed at any cost"],
+      "correct": 0
+    },
+    "resources": ["dot", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Create an exception playbook",
+        "text": "Write decision rules for unsafe locations, incorrect addresses, access problems, damaged goods and recipient requirements. Follow authorized escalation and record the correct outcome. Never fabricate successful delivery or use an unsafe shortcut to meet a productivity target."
+      },
+      {
+        "title": "Review route quality",
+        "text": "Track completion, failed attempts, on-time service, actual work hours and total miles using the client’s definitions. Investigate why problems repeat. Metrics should identify process improvements, not encourage speeding, skipped breaks or misleading records."
+      }
+    ]
+  },
+  {
+    "id": "carrier-17",
+    "number": 17,
+    "title": "Proof of delivery",
+    "body": "POD is the delivery record required by the agreement. It may include a scan, time, authorized photo or signature. Capture the correct parcel and location while avoiding unnecessary personal information.",
+    "example": "A photo of a package does not prove delivery to the correct address if the location is wrong.",
+    "action": "Review the client’s POD rules and data-retention policy.",
+    "implication": "The operating decision: Review the client’s POD rules and data-retention policy. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Define acceptable evidence",
+      "Review the client’s POD rules and data-retention policy",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Accurate agreed delivery evidence", "Any photo anywhere"],
+      "correct": 0
+    },
+    "resources": ["tax", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Define acceptable evidence",
+        "text": "Confirm required scan, location, time, signature and photo rules with the client. Do not invent a proof standard. A package must match the order and address; an image alone can be misleading if custody or location is wrong."
+      },
+      {
+        "title": "Protect customer information",
+        "text": "Use approved tools, restrict access and follow retention instructions. Avoid sharing delivery photos or recipient details through personal social channels. The academy uses fictional examples and does not need customer identity data to teach the workflow."
+      }
+    ]
+  },
+  {
+    "id": "carrier-18",
+    "number": 18,
+    "title": "Returns",
+    "body": "At route end, reconcile undelivered parcels and return custody through the approved handoff. Returns can be failed deliveries or customer returns; they are different workflows. Record condition and reason accurately.",
+    "example": "A failed attempt remains in your custody until an authorized return scan transfers it.",
+    "action": "Map the reverse handoff and reconcile every remaining parcel.",
+    "implication": "The operating decision: Map the reverse handoff and reconcile every remaining parcel. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Close every open custody item",
+      "Map the reverse handoff and reconcile every remaining parcel",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Track custody until handoff", "Mark every parcel delivered"],
+      "correct": 0
+    },
+    "resources": ["reverse", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Close every open custody item",
+        "text": "At the end of the route, list undelivered, damaged and customer-return parcels separately. Verify return location, cutoff and authorized recipient. Reconcile physical items to records and confirm the return event transfers responsibility according to the agreement."
+      },
+      {
+        "title": "Learn recovery operations",
+        "text": "Customer returns may need inspection, grading and a brand’s disposition decision. A delivery driver should not decide independently that returned goods can be resold or discarded. Specialized goods may create restrictions and safety needs beyond an ordinary parcel service."
+      }
+    ]
+  },
+  {
+    "id": "carrier-19",
+    "number": 19,
+    "title": "Driver compensation",
+    "body": "Budget the full cost of labor, including time for loading, waiting and returning, applicable payroll obligations and coverage. Worker status is not decided by giving someone a 1099. Verify current federal and state rules.",
+    "example": "A delivery day lasts longer than the driving portion. Ignoring other work time distorts the model.",
+    "action": "Discuss classification and compensation with qualified advisors before hiring.",
+    "implication": "The operating decision: Discuss classification and compensation with qualified advisors before hiring. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Cost the complete labor day",
+      "Discuss classification and compensation with qualified advisors before hiring",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Actual relationship and all work time",
+        "Calling someone a contractor settles it"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "labor",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Cost the complete labor day",
+        "text": "Include check-in, loading, driving, waiting, return and reconciliation time. Separate wage/service pay from employer costs, training and coverage where applicable. Compare the full budget with expected route contribution rather than treating the driver payment as the only staffing expense."
+      },
+      {
+        "title": "Verify the relationship",
+        "text": "Actual work facts and applicable laws determine worker status. A 1099, LLC or signed contractor label is not enough by itself. Confirm current federal and state guidance and obtain qualified advice before hiring; classification standards and enforcement may change."
+      }
+    ]
+  },
+  {
+    "id": "carrier-20",
+    "number": 20,
+    "title": "Revenue vs profit",
+    "body": "Revenue is the amount earned before expenses. Operating income subtracts modeled operating costs; it is not take-home pay or cash in the bank. Include owner labor, reserves and costs paid outside the route day.",
+    "example": "A profitable route on paper can still run out of cash before its invoice is collected.",
+    "action": "Build a cost ledger and compare earnings to cash timing.",
+    "implication": "The operating decision: Build a cost ledger and compare earnings to cash timing. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Read the operating statement",
+      "Build a cost ledger and compare earnings to cash timing",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Costs and timing must be considered",
+        "All receipts are profit"
+      ],
+      "correct": 0
+    },
+    "resources": ["break-even", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Read the operating statement",
+        "text": "Start with earned revenue, subtract labor, fuel and activity costs, then include monthly allocations. Distinguish reserves from bills already paid. Operating income is before the model’s excluded taxes and financing structure. It should not be presented as guaranteed cash or owner take-home pay."
+      },
+      {
+        "title": "Use contribution to make decisions",
+        "text": "Assess whether an additional route covers its variable cost and helps fund fixed obligations. Then check whether it requires new supervision, equipment or capacity. A profitable marginal route can still strain cash if payment is delayed or service demand is volatile."
+      }
+    ]
+  },
+  {
+    "id": "carrier-21",
+    "number": 21,
+    "title": "Running your first route",
+    "body": "Launch only after vehicle acceptance, coverage, contract review, operating requirements and dispatch access are confirmed. Test the workflow end to end and keep escalation and backup plans accessible.",
+    "example": "Your first day reveals loading takes longer than estimated. Update the assumptions instead of hiding the cost.",
+    "action": "Complete a readiness checklist and a post-route review.",
+    "implication": "The operating decision: Complete a readiness checklist and a post-route review. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Run a launch rehearsal",
+      "Complete a readiness checklist and a post-route review",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Verified readiness and a feedback loop",
+        "Accept work before confirming coverage"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "insurance",
+      "tour",
+      "startup",
+      "authority",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Run a launch rehearsal",
+        "text": "Check vehicle acceptance, insurance, contract understanding, applicable registrations, dispatch access and the complete return process. Inspect the vehicle and rehearse documentation using synthetic records. Keep backups and escalation contacts ready. Do not accept real work while essential conditions remain unresolved."
+      },
+      {
+        "title": "Debrief the first day",
+        "text": "Compare assumptions with actual miles, service units and work time. Reconcile exceptions and feedback. Update the model with observed costs and decide which procedure needs revision before the next route, rather than hiding a difficult day behind revenue."
+      }
+    ]
+  },
+  {
+    "id": "carrier-22",
+    "number": 22,
+    "title": "Adding driver number two",
+    "body": "Standardize onboarding, safe handling, communication and POD review before handing over service. Plan supervision and backup, not just recruitment. Protect customer information with limited access.",
+    "example": "The second driver needs the same clear exception rules that you learned on your first route.",
+    "action": "Write training steps and verify classification and coverage.",
+    "implication": "The operating decision: Write training steps and verify classification and coverage. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Document what you learned",
+      "Write training steps and verify classification and coverage",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Repeatable training and oversight", "A spare key is enough"],
+      "correct": 0
+    },
+    "resources": [
+      "labor",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Document what you learned",
+        "text": "Turn the first operator’s experience into an onboarding guide: site rules, custody, safe loading, exceptions, POD and reconciliation. Confirm a second driver is qualified, covered and trained before delegating work. Use limited access rather than shared credentials."
+      },
+      {
+        "title": "Add management capacity",
+        "text": "Schedule supervision, quality review and absence coverage. A second driver adds communication and training time even if you still drive. Clarify lawful compensation and the full labor budget before promising that the second route will be passive income."
+      }
+    ]
+  },
+  {
+    "id": "carrier-23",
+    "number": 23,
+    "title": "Adding vehicle number two",
+    "body": "A second unit adds fixed costs even when there is no second route. Validate utilization, driver availability, coverage and maintenance support before committing. Stress-test losing one customer.",
+    "example": "A financed van sitting idle still creates cash obligations.",
+    "action": "Model demand and reserve cash before acquisition.",
+    "implication": "The operating decision: Model demand and reserve cash before acquisition. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Confirm the next unit’s demand",
+      "Model demand and reserve cash before acquisition",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Demand and resilience", "More vehicles guarantee growth"],
+      "correct": 0
+    },
+    "resources": ["startup", "tour"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Confirm the next unit’s demand",
+        "text": "Obtain credible work evidence and compare contract duration with equipment commitments. Model utilization, maintenance, insurance and driver availability. Spare capacity may have value, but it must be funded; an idle financed unit is not free backup."
+      },
+      {
+        "title": "Plan for simultaneous failures",
+        "text": "Consider a vehicle breakdown, a driver absence and a client reduction occurring together. Decide which capacity is essential and how you will recover service. Maintain accurate records for each vehicle instead of treating the fleet as interchangeable without client acceptance."
+      }
+    ]
+  },
+  {
+    "id": "carrier-24",
+    "number": 24,
+    "title": "Managing multiple routes",
+    "body": "Track service, exceptions, driver hours and contribution by route. Assign an escalation owner. Consolidated revenue can hide one route that loses money daily.",
+    "example": "Two strong routes can mask a third with excess deadhead miles.",
+    "action": "Review each route weekly with operational and financial measures.",
+    "implication": "The operating decision: Review each route weekly with operational and financial measures. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Create a daily control board",
+      "Review each route weekly with operational and financial measures",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Per-route performance", "Only fleet-wide revenue"],
+      "correct": 0
+    },
+    "resources": ["break-even", "tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Create a daily control board",
+        "text": "For each route, track assigned work, driver, vehicle, check-in, exceptions and completion. Assign an escalation owner so two drivers do not receive conflicting instructions. Use only necessary customer information and restrict exports and access."
+      },
+      {
+        "title": "Review contribution by route",
+        "text": "Combine service metrics with actual labor hours, miles and deductions. Fleet-wide revenue can hide a route that consistently loses money. Investigate the operational cause and consider renegotiation or scope changes where the agreement allows."
+      }
+    ]
+  },
+  {
+    "id": "carrier-25",
+    "number": 25,
+    "title": "Building a fleet",
+    "body": "Build capacity with documented hiring, preventive maintenance, dispatch and backup systems. Growth increases coordination and working-capital needs. Do not confuse a fleet photograph with resilient operations.",
+    "example": "A repair and a sick driver on the same day test whether the business has coverage.",
+    "action": "Create a capacity plan with maintenance and absence scenarios.",
+    "implication": "The operating decision: Create a capacity plan with maintenance and absence scenarios. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Build the management system",
+      "Create a capacity plan with maintenance and absence scenarios",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": ["Reliable managed capacity", "Vehicle count alone"],
+      "correct": 0
+    },
+    "resources": [
+      "insurance",
+      "tour",
+      "startup",
+      "authority",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Build the management system",
+        "text": "A fleet needs documented preventive maintenance, driver qualification, scheduling, incident response, training and insurance tracking. Scale supervision and support along with vehicles. Capacity is useful only when it is available, accepted and safely operated."
+      },
+      {
+        "title": "Fund resilience",
+        "text": "Model repairs, replacement vehicles, slow payments and client concentration. Set reserve assumptions based on the actual obligations and risk. Standardizing equipment may simplify support, but do not assume it is automatically the best decision for every service mix."
+      }
+    ]
+  },
+  {
+    "id": "carrier-26",
+    "number": 26,
+    "title": "Getting direct clients",
+    "body": "Sell a clear service promise to a defined customer segment. Ask about delivery windows, cargo, geography, reporting and pain points. Pilot a manageable scope and price from costs and service obligations.",
+    "example": "A local retailer wants scheduled replenishment rather than parcel-by-parcel delivery.",
+    "action": "Interview five prospects and prepare a scoped pilot proposal.",
+    "implication": "The operating decision: Interview five prospects and prepare a scoped pilot proposal. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Discover the customer problem",
+      "Interview five prospects and prepare a scoped pilot proposal",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Customer needs and scoped service",
+        "One pitch fits all clients"
+      ],
+      "correct": 0
+    },
+    "resources": ["startup", "tour"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Discover the customer problem",
+        "text": "Ask local businesses what goods move, how often, under which deadlines and what failures hurt them. Separate a recurring replenishment need from on-demand parcel delivery. Avoid quoting before you understand access, custody and reporting requirements."
+      },
+      {
+        "title": "Sell a scoped pilot",
+        "text": "State geographic limits, cargo types, timing, proof, exclusions and escalation. Price from the intended workflow and verified costs. Agree on a measurable review period and use pilot results to refine the service before promising a broader footprint."
+      }
+    ]
+  },
+  {
+    "id": "carrier-27",
+    "number": 27,
+    "title": "Warehouse relationships",
+    "body": "Make the handoff easy to manage: punctual arrivals, clear capacity, accurate scans and professional escalation. Identify who can actually approve contracts; warehouse staff may not control procurement.",
+    "example": "The dock team trusts your reconciliation, but commercial approval still comes from procurement.",
+    "action": "Map operational and purchasing contacts separately.",
+    "implication": "The operating decision: Map operational and purchasing contacts separately. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Respect the operational handoff",
+      "Map operational and purchasing contacts separately",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Operational trust plus purchasing process",
+        "A dock introduction is a signed contract"
+      ],
+      "correct": 0
+    },
+    "resources": ["tour", "startup"],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Respect the operational handoff",
+        "text": "Learn appointment rules, load readiness, scan reconciliation and return procedures. Communicate capacity changes early. Reliability and accurate exceptions help the facility plan, but relationships do not replace a contract or procurement approval."
+      },
+      {
+        "title": "Map authority clearly",
+        "text": "Identify the people who control dock workflow, route allocation, qualification and commercial terms. They may be different teams. Keep escalation professional and do not pressure a warehouse worker to promise business they cannot authorize."
+      }
+    ]
+  },
+  {
+    "id": "carrier-28",
+    "number": 28,
+    "title": "Contract management",
+    "body": "Maintain the signed agreement, schedules, renewals, insurance dates and dispute records. Record scope changes in writing and understand termination exposure before financing equipment.",
+    "example": "A verbal promise of more routes conflicts with a written no-volume-guarantee clause.",
+    "action": "Build a contract calendar and obtain review of unresolved terms.",
+    "implication": "The operating decision: Build a contract calendar and obtain review of unresolved terms. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Maintain the agreement record",
+      "Build a contract calendar and obtain review of unresolved terms",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Written obligations and changes",
+        "Verbal forecasts are guaranteed"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "sba",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Maintain the agreement record",
+        "text": "Keep signed documents and schedules, record approvals for changes and track renewal and termination dates. Compare invoices with the current rate schedule. Use documented dispute procedures and preserve records needed to support a service or billing question."
+      },
+      {
+        "title": "Watch commitment mismatch",
+        "text": "Vehicle or lease obligations may continue after route work ends. Understand termination, insurance, claims and subcontract terms before increasing exposure. Have qualified professionals review material obligations and any uncertainty that could change the launch decision."
+      }
+    ]
+  },
+  {
+    "id": "carrier-29",
+    "number": 29,
+    "title": "Operations and dispatch",
+    "body": "Dispatch coordinates route assignments, progress and exceptions. Use role-based access and clear escalation rules. Monitor service without encouraging unsafe driving or unnecessary personal-data collection.",
+    "example": "An access problem triggers support and a revised plan instead of repeated failed attempts.",
+    "action": "Create a communication tree and exception log.",
+    "implication": "The operating decision: Create a communication tree and exception log. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Assign coordination ownership",
+      "Create a communication tree and exception log",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Coordination and accountable escalation",
+        "Constant messages without ownership"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "dot",
+      "tour",
+      "startup",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Assign coordination ownership",
+        "text": "Define who assigns work, updates drivers, handles access problems, authorizes rescue capacity and closes the day. Prevent duplicate instructions. Use a communication channel that preserves necessary records while limiting unnecessary personal information."
+      },
+      {
+        "title": "Prepare an outage procedure",
+        "text": "Know how to continue safe work or pause service when route systems fail. Do not fabricate scans to repair a dashboard. Confirm the client’s approved offline or support process and reconcile records once systems recover."
+      }
+    ]
+  },
+  {
+    "id": "carrier-30",
+    "number": 30,
+    "title": "Scaling into a regional carrier",
+    "body": "Expansion adds markets, recruiting, facilities, service complexity and cash exposure. Prove the model in one area before copying it. Confirm regulations and contract needs for each new operating footprint.",
+    "example": "A new warehouse shifts start times and empty miles, changing economics even with the same route fee.",
+    "action": "Write a market-entry plan with demand evidence and stop/go criteria.",
+    "implication": "The operating decision: Write a market-entry plan with demand evidence and stop/go criteria. Make the service promise measurable, identify the responsible person and record exceptions so the next handoff can be trusted.",
+    "cost": "Request quotes and contract terms for this activity. Include labor time, rework, downtime and cash needed before customers pay. Actual amounts vary by operator, contract, jurisdiction and market.",
+    "diagram": [
+      "Prove a replicable unit",
+      "Write a market-entry plan with demand evidence and stop/go criteria",
+      "Document the result",
+      "Review before expanding"
+    ],
+    "quiz": {
+      "question": "Which principle best fits this lesson?",
+      "answers": [
+        "Replicable economics and verified requirements",
+        "Same rate means same profit everywhere"
+      ],
+      "correct": 0
+    },
+    "resources": [
+      "startup",
+      "tour",
+      "authority",
+      "insurance",
+      "carrier-video",
+      "safer"
+    ],
+    "reviewedAt": "2026-10-04",
+    "sections": [
+      {
+        "title": "Prove a replicable unit",
+        "text": "Document viable route contribution, dependable service, trained people and customer demand before entering another market. Assess new travel distances, facilities, hiring, coverage and operating requirements. A familiar daily rate may produce very different economics in a new geography."
+      },
+      {
+        "title": "Use staged decision gates",
+        "text": "Define what evidence permits expansion and what conditions trigger a pause. A regional operation needs supervision, backups, systems and working capital across locations. Validate each market with actual contracts and observed operations rather than extrapolating one strong week."
+      }
+    ]
+  }
+]
