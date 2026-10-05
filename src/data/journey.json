@@ -1,0 +1,189 @@
+[
+  {
+    "id": "0",
+    "title": "Customer orders",
+    "what": "The customer clicks BUY NOW for a pair of sneakers. Payment and an order record begin the workflow.",
+    "who": "Retailer and payment/order systems",
+    "payer": "The customer pays the retailer; the retailer pays its service providers.",
+    "revenue": "Product sale; providers may earn processing or software fees.",
+    "cost": "Payment processing, software and support.",
+    "entry": "Learn order workflows or serve retailers with useful software.",
+    "opportunity": "logistics-technology"
+  },
+  {
+    "id": "1",
+    "title": "Order management",
+    "what": "The order is validated and sent to the operation responsible for shipping.",
+    "who": "Retailer operations or order-management provider",
+    "payer": "Retailer pays internal labor or contracted software/service fees.",
+    "revenue": "Software subscriptions or contracted service fees.",
+    "cost": "Integrations, support, exceptions and data security.",
+    "entry": "Study the difference between an order record and a shipment.",
+    "opportunity": "logistics-technology"
+  },
+  {
+    "id": "2",
+    "title": "Inventory located",
+    "what": "The requested sneaker size is matched to available inventory at an appropriate location.",
+    "who": "Inventory team and warehouse systems",
+    "payer": "Retailer or brand pays inventory/warehouse service providers.",
+    "revenue": "Storage and inventory-service fees or internal operations.",
+    "cost": "Stock control, space, counts and software.",
+    "entry": "Learn inventory accuracy before offering custody services.",
+    "opportunity": "warehouse-operator"
+  },
+  {
+    "id": "3",
+    "title": "Fulfillment",
+    "what": "The facility releases the order for physical preparation.",
+    "who": "Retailer fulfillment team or contracted fulfillment business",
+    "payer": "Brand pays the fulfillment provider when outsourced.",
+    "revenue": "Receiving, storage and order-processing fees.",
+    "cost": "Space, labor, software and service management.",
+    "entry": "Pilot a narrow order profile with clear service terms.",
+    "opportunity": "fulfillment"
+  },
+  {
+    "id": "4",
+    "title": "Pick",
+    "what": "A worker or automation retrieves the correct sneaker SKU and quantity.",
+    "who": "Picking team",
+    "payer": "Brand pays through fulfillment fees or internal payroll.",
+    "revenue": "Item/order handling fees where outsourced.",
+    "cost": "Labor, equipment and mis-pick rework.",
+    "entry": "Learn SKU verification and safe material handling.",
+    "opportunity": "fulfillment"
+  },
+  {
+    "id": "5",
+    "title": "Pack",
+    "what": "The sneakers are protected in packaging suitable for transport.",
+    "who": "Packing team",
+    "payer": "Brand pays packaging and handling costs under its agreement.",
+    "revenue": "Packing services and agreed packaging charges.",
+    "cost": "Materials, labor, benches and damage prevention.",
+    "entry": "Practice packaging and define quality checks.",
+    "opportunity": "fulfillment"
+  },
+  {
+    "id": "6",
+    "title": "Label",
+    "what": "A shipping label connects the box to a carrier service and destination.",
+    "who": "Shipping team and shipping systems",
+    "payer": "Shipper pays carrier postage/service and any software fees.",
+    "revenue": "Shipping software fees; transport fees are a separate obligation.",
+    "cost": "Labels, printers, integrations and corrections.",
+    "entry": "Learn address, service and tracking reconciliation.",
+    "opportunity": "logistics-technology"
+  },
+  {
+    "id": "7",
+    "title": "Warehouse / fulfillment facility",
+    "what": "The prepared box waits in outbound staging within the facility. These steps often occur in one building.",
+    "who": "Facility operator",
+    "payer": "Brand pays contracted services or operates the facility itself.",
+    "revenue": "Storage, handling or dedicated-operation fees.",
+    "cost": "Lease, labor, utilities, safety and security.",
+    "entry": "Study workflows before selecting space.",
+    "opportunity": "warehouse-operator"
+  },
+  {
+    "id": "8",
+    "title": "Sortation",
+    "what": "The box is grouped with other parcels headed toward the same outbound lane.",
+    "who": "Sortation operator or carrier network",
+    "payer": "Shipper/carrier pays the operator according to its network agreement.",
+    "revenue": "Handling or dedicated network-service fees.",
+    "cost": "Sort systems, space, staff and incorrect-sort rework.",
+    "entry": "Learn scan and custody controls at handoffs.",
+    "opportunity": "distribution"
+  },
+  {
+    "id": "9",
+    "title": "Distribution",
+    "what": "The network stages and directs shipments toward destination regions.",
+    "who": "Distribution operator or integrated carrier",
+    "payer": "Retailer, network or contracted customer pays the service provider.",
+    "revenue": "Handling, storage and network-service contracts.",
+    "cost": "Regional facilities, staff, systems and transfers.",
+    "entry": "Map one regional network and its customers.",
+    "opportunity": "distribution"
+  },
+  {
+    "id": "10",
+    "title": "Middle-mile transportation",
+    "what": "A vehicle moves grouped shipments between facilities.",
+    "who": "Middle-mile carrier",
+    "payer": "Shipper, network or intermediary pays the transport provider.",
+    "revenue": "Lane, trip, mile or dedicated-capacity fees.",
+    "cost": "Vehicle, fuel, driver time, tolls and empty miles.",
+    "entry": "Verify transport requirements and round-trip lane economics.",
+    "opportunity": "middle-mile"
+  },
+  {
+    "id": "11",
+    "title": "Local delivery facility",
+    "what": "The box reaches the destination-area operation and is assigned to delivery work.",
+    "who": "Local facility and network teams",
+    "payer": "Network or shipper funds the operation.",
+    "revenue": "Facility/handling contract or internal network activity.",
+    "cost": "Space, staff, scans and dispatch systems.",
+    "entry": "Understand check-in, allocation and custody transfer.",
+    "opportunity": "last-mile-carrier"
+  },
+  {
+    "id": "12",
+    "title": "Last-mile carrier",
+    "what": "The contracting delivery business accepts responsibility for the assigned service.",
+    "who": "Carrier owner and operations team",
+    "payer": "Prime carrier, shipper or retailer pays under its agreement.",
+    "revenue": "Route, stop, package or negotiated service fees.",
+    "cost": "Drivers, vehicles, insurance, dispatch and working capital.",
+    "entry": "Request verified onboarding requirements and model a route.",
+    "opportunity": "last-mile-carrier"
+  },
+  {
+    "id": "13",
+    "title": "Route",
+    "what": "Parcels are organized into a planned sequence of stops. Packages and stops are different counts.",
+    "who": "Dispatcher or carrier routing system",
+    "payer": "Carrier pays staff or software providers.",
+    "revenue": "Dispatch services, software or included carrier operations.",
+    "cost": "Software, coordination, waiting and exception handling.",
+    "entry": "Practice route planning without assuming every package is a stop.",
+    "opportunity": "dispatcher"
+  },
+  {
+    "id": "14",
+    "title": "Driver",
+    "what": "The driver completes the safe physical delivery and required proof of delivery.",
+    "who": "Employee driver or appropriately classified operator",
+    "payer": "Employer pays wages, or contracting party pays agreed services.",
+    "revenue": "Labor compensation or owner-operated service fees.",
+    "cost": "Time, vehicle costs where applicable, phone and safety.",
+    "entry": "Verify pay, expense responsibilities and delivery procedures.",
+    "opportunity": "delivery-driver"
+  },
+  {
+    "id": "15",
+    "title": "Customer",
+    "what": "The customer receives the sneakers; delivery records close the outbound handoff.",
+    "who": "Driver and recipient",
+    "payer": "Delivery payment normally follows the business contract, not a payment at the door.",
+    "revenue": "Completed service is reconciled for invoicing.",
+    "cost": "Support, disputes and potential claims.",
+    "entry": "Learn what counts as accepted delivery in the agreement.",
+    "opportunity": "courier"
+  },
+  {
+    "id": "16",
+    "title": "Returns / reverse logistics",
+    "what": "If the sneakers are returned, transport and inspection lead to a restock or other authorized disposition.",
+    "who": "Returns carrier and processing operator",
+    "payer": "Retailer/brand pays agreed return services; customer policies vary.",
+    "revenue": "Return transport, inspection, handling or recovery fees.",
+    "cost": "Pickup, inspection, storage, rework and disposition.",
+    "entry": "Define custody, condition grading and permitted handling.",
+    "opportunity": "reverse-logistics"
+  }
+]
