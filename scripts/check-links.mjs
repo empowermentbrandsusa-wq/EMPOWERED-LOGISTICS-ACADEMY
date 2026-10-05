@@ -102,8 +102,6 @@ for (let i = 0; i < resources.length; i += 4) {
     }),
   );
 }
-await fs.mkdir("docs", { recursive: true });
-await fs.writeFile("docs/link-check.json", JSON.stringify(report, null, 2));
 console.log(
   JSON.stringify(
     {
