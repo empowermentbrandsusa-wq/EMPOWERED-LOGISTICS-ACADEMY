@@ -8,7 +8,9 @@ Empowerment through education and information, the more you know!
 
 A multi-page educational platform following the post-purchase supply chain from BUY NOW through fulfillment, transportation, last-mile delivery and returns. Includes business pathways, source transparency and realistic assumption-based financial tools.
 
-- 17 interactive package stages
+The visual experience redesign preserves the original data and routes while adding scroll-led storytelling, progressive disclosure, guided opportunity discovery, carrier and warehouse pathways, reduced-motion equivalents and production social/SEO metadata. See [the redesign plan](docs/EXPERIENCE_REDESIGN_PLAN.md) and [the three-pass review](docs/REDESIGN_REVIEW.md).
+
+- 17 visual, interactive package stages
 - 14 business opportunity profiles and comparison
 - 30 carrier lessons and 27 warehouse lessons
 - Route and warehouse economics calculators
@@ -46,4 +48,4 @@ Financial inputs start at zero, except visibly labeled scenario/service-volume i
 
 See [implementation and review report](docs/IMPLEMENTATION_REPORT.md), [architecture and hosting guidance](docs/ARCHITECTURE.md), [security scope](docs/SECURITY.md), [link-check evidence](docs/link-check.json) and [browser evidence](docs/browser-results.json).
 
-GitHub quality gates and CodeQL workflows are included. Their remote results must be checked on the pull request. No website hosting deployment has been performed by this build.
+GitHub quality gates and CodeQL workflows are included. Their remote results must be checked on the pull request. The application deploys from `main` to its public Netlify site.

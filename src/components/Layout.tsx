@@ -1,7 +1,25 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Package, Search, ArrowUpRight } from "lucide-react";
-import { nav } from "../data";
+const primaryNav = [
+  ["Follow a package", "/journey"],
+  ["Follow the money", "/money"],
+  ["Find your lane", "/opportunities"],
+  ["Start a carrier", "/academy/carrier"],
+  ["Tools", "/tools"],
+  ["Resources", "/resources"],
+];
+const exploreNav = [
+  ["Academy home", "/academy"],
+  ["Carrier master course", "/academy/carrier"],
+  ["Warehouse master course", "/academy/warehouse"],
+  ["Vehicle center", "/vehicles"],
+  ["Start with what you have", "/start/start-small"],
+  ["Business registration", "/start/business-registration"],
+  ["Partner proposal", "/proposal"],
+  ["Your progress", "/progress"],
+  ["About", "/about"],
+];
 export default function Layout() {
   const location = useLocation();
   useEffect(() => {
@@ -56,47 +74,46 @@ export default function Layout() {
             <summary aria-label="Open navigation">Menu ☰</summary>
             <nav aria-label="Mobile navigation">
               <Link to="/">Home</Link>
-              {nav.map((g) => (
-                <div key={g.title}>
-                  <strong>{g.title}</strong>
-                  {g.links.map(([label, to]) => (
-                    <Link key={label} to={to}>
-                      {label}
-                    </Link>
-                  ))}
-                </div>
+              {primaryNav.map(([label, to]) => (
+                <Link key={label} to={to}>
+                  {label}
+                </Link>
               ))}
-              <Link to="/about">About</Link>
+              <div>
+                <strong>Explore the Academy</strong>
+                {exploreNav.map(([label, to]) => (
+                  <Link key={label} to={to}>
+                    {label}
+                  </Link>
+                ))}
+              </div>
               <Link to="/search">Search</Link>
             </nav>
           </details>
         </div>
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link to="/">Home</Link>
-          {nav.map((g) => (
-            <details
-              key={g.title}
-              className="nav-group"
-              name="desktop-navigation"
-            >
-              <summary>
-                {g.title}
-                <span aria-hidden="true">⌄</span>
-              </summary>
-              <div className="mega-panel">
-                <p className="eyebrow">{g.title}</p>
-                <div>
-                  {g.links.map(([label, to]) => (
-                    <Link key={label} to={to}>
-                      {label}
-                      <ArrowUpRight size={16} />
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </details>
+          {primaryNav.map(([label, to]) => (
+            <Link key={label} to={to}>
+              {label}
+            </Link>
           ))}
-          <Link to="/about">About</Link>
+          <details className="nav-group" name="desktop-navigation">
+            <summary>
+              Explore <span aria-hidden="true">⌄</span>
+            </summary>
+            <div className="mega-panel">
+              <p className="eyebrow">Go deeper</p>
+              <div>
+                {exploreNav.map(([label, to]) => (
+                  <Link key={label} to={to}>
+                    {label}
+                    <ArrowUpRight size={16} />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </details>
         </nav>
       </header>
       <main id="main" tabIndex={-1}>

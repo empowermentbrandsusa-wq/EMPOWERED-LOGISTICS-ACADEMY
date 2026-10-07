@@ -11,6 +11,9 @@ for (const path of paths) {
     /<meta\s+name="description"\s+content="[^"]+"/,
     /<meta\s+property="og:title"\s+content="[^"]+"/,
     /<meta\s+property="og:description"\s+content="[^"]+"/,
+    /<meta\s+property="og:url"\s+content="https:\/\/empoweredlogisticsacademy\.netlify\.app\//,
+    /<meta\s+name="twitter:card"\s+content="summary_large_image"/,
+    /<link\s+rel="canonical"\s+href="https:\/\/empoweredlogisticsacademy\.netlify\.app\//,
   ])
     if (!pattern.test(html))
       errors.push(`${path}: missing metadata ${pattern}`);
@@ -42,6 +45,16 @@ for (const asset of assets)
     errors.push(`Missing built asset ${asset}`);
   }
 await fs.access("dist/404.html");
+const notFound = await fs.readFile("dist/404.html", "utf8");
+if (!notFound.includes('<meta name="robots" content="noindex"'))
+  errors.push("404 page is missing noindex metadata");
+await fs.access("dist/robots.txt");
+const sitemap = await fs.readFile("dist/sitemap.xml", "utf8");
+for (const path of paths) {
+  const url = `https://empoweredlogisticsacademy.netlify.app${path === "/" ? "/" : `${path}/`}`;
+  if (!sitemap.includes(`<loc>${url}</loc>`))
+    errors.push(`${path}: missing from sitemap`);
+}
 console.log({
   prerenderedRoutes: paths.length,
   homepageAssets: assets.length,

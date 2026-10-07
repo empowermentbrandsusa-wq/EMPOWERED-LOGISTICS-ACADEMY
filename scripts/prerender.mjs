@@ -80,6 +80,7 @@ const routeMetadata = new Map([
 ]);
 const defaultDescription =
   "Learn the system. Find your lane. Build your business.";
+const origin = "https://empoweredlogisticsacademy.netlify.app";
 const escapeHtml = (value) =>
   value
     .replaceAll("&", "&amp;")
@@ -96,6 +97,7 @@ for (const path of [...paths, "/404"]) {
   const description = metadata?.description || defaultDescription;
   const safeTitle = escapeHtml(title);
   const safeDescription = escapeHtml(description);
+  const canonicalUrl = `${origin}${path === "/" ? "/" : `${path}/`}`;
   let html = template
     .replace('<div id="root"></div>', `<div id="root">${markup}</div>`)
     .replace(/<title>.*?<\/title>/, `<title>${safeTitle}</title>`)
@@ -110,6 +112,27 @@ for (const path of [...paths, "/404"]) {
     .replace(
       /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
       `<meta property="og:description" content="${safeDescription}"/>`,
+    )
+    .replace(
+      /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+      `<meta property="og:url" content="${canonicalUrl}"/>`,
+    )
+    .replace(
+      /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:title" content="${safeTitle}"/>`,
+    )
+    .replace(
+      /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:description" content="${safeDescription}"/>`,
+    )
+    .replace(
+      /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+      `<link rel="canonical" href="${canonicalUrl}"/>`,
+    );
+  if (path === "/404")
+    html = html.replace(
+      "</head>",
+      '    <meta name="robots" content="noindex" />\n  </head>',
     );
   if (path === "/404") await fs.writeFile("dist/404.html", html);
   else {
@@ -118,8 +141,14 @@ for (const path of [...paths, "/404"]) {
     await fs.writeFile(`${dir}/index.html`, html);
   }
 }
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${paths.map((path) => `  <url><loc>${origin}${path === "/" ? "/" : `${path}/`}</loc><lastmod>2026-10-06</lastmod></url>`).join("\n")}
+</urlset>
+`;
+await fs.writeFile("dist/sitemap.xml", sitemap);
 await fs.writeFile("docs/routes.json", JSON.stringify(paths, null, 2));
 await fs.rm(".ssr", { recursive: true, force: true });
 console.log(
-  `Prerendered ${paths.length} public routes plus 404. No hosting origin configured; canonical URLs and sitemap intentionally await deployment.`,
+  `Prerendered ${paths.length} public routes plus 404 with canonical URLs and sitemap.`,
 );

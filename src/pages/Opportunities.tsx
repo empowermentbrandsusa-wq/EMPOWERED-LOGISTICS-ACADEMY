@@ -21,6 +21,7 @@ export default function Opportunities() {
   );
 }
 function Explorer() {
+  const [step, setStep] = useState(0);
   const [vehicle, setVehicle] = useState("all");
   const [interest, setInterest] = useState("all");
   const [employees, setEmployees] = useState("all");
@@ -56,124 +57,161 @@ function Explorer() {
           ? o.tags.includes("Driving")
           : o.complexity === "High")),
   );
+  const shown = step === 7 ? filtered : filtered.slice(0, 4);
   return (
     <div className="page-container">
       <PageHead
-        eyebrow="Business opportunity explorer"
-        title="Find your lane."
-        description="Compare responsibilities, resources and business models. There’s no universal best opportunity—there are tradeoffs worth understanding."
+        eyebrow="A guided opportunity discovery"
+        title="What part of logistics feels like you?"
+        description="Answer one short question at a time. Your answers surface pathways to explore—not eligibility, a promise or a universal best choice."
       />
-      <div className="filters">
-        {[
-          [
-            "Vehicle access",
-            vehicle,
-            setVehicle,
+      <section className="lane-wizard" aria-labelledby="lane-question-heading">
+        <div className="lane-wizard-progress">
+          <span>Question {step + 1} of 8</span>
+          <progress
+            value={step + 1}
+            max="8"
+            aria-label="Opportunity discovery progress"
+          />
+        </div>
+        <h2 id="lane-question-heading">
+          Build your picture one choice at a time.
+        </h2>
+        <p>
+          Your matches update as you answer. You can go back or reset at any
+          time.
+        </p>
+        <div className="filters one-at-a-time">
+          {[
             [
-              ["all", "Explore all"],
-              ["personal", "Personal vehicle"],
-              ["van", "Van"],
-              ["truck", "Truck"],
-              ["none", "No vehicle"],
+              "Vehicle access",
+              vehicle,
+              setVehicle,
+              [
+                ["all", "Explore all"],
+                ["personal", "Personal vehicle"],
+                ["van", "Van"],
+                ["truck", "Truck"],
+                ["none", "No vehicle"],
+              ],
             ],
-          ],
-          [
-            "Your interest",
-            interest,
-            setInterest,
             [
-              ["all", "All interests"],
-              ["Driving", "I want to drive"],
-              ["Desk", "Coordination / technology"],
-              ["Facility", "Facility operations"],
-              ["Employees", "Manage a team"],
+              "Your interest",
+              interest,
+              setInterest,
+              [
+                ["all", "All interests"],
+                ["Driving", "I want to drive"],
+                ["Desk", "Coordination / technology"],
+                ["Facility", "Facility operations"],
+                ["Employees", "Manage a team"],
+              ],
             ],
-          ],
-          [
-            "Employees",
-            employees,
-            setEmployees,
             [
-              ["all", "Open to either"],
-              ["yes", "Interested in a team"],
-              ["no", "Start without a team"],
+              "Employees",
+              employees,
+              setEmployees,
+              [
+                ["all", "Open to either"],
+                ["yes", "Interested in a team"],
+                ["no", "Start without a team"],
+              ],
             ],
-          ],
-          [
-            "Facility access",
-            facility,
-            setFacility,
             [
-              ["all", "Explore both"],
-              ["yes", "Facility-based models"],
-              ["no", "Without a facility"],
+              "Facility access",
+              facility,
+              setFacility,
+              [
+                ["all", "Explore both"],
+                ["yes", "Facility-based models"],
+                ["no", "Without a facility"],
+              ],
             ],
-          ],
-          [
-            "Business experience",
-            experience,
-            setExperience,
             [
-              ["all", "Any experience"],
-              ["learning", "Learning from the start"],
-              ["experienced", "Explore operational responsibility"],
+              "Business experience",
+              experience,
+              setExperience,
+              [
+                ["all", "Any experience"],
+                ["learning", "Learning from the start"],
+                ["experienced", "Explore operational responsibility"],
+              ],
             ],
-          ],
-          [
-            "Starting resources",
-            capital,
-            setCapital,
             [
-              ["all", "Compare all capital profiles"],
-              ["lean", "Explore lower capital models"],
-              ["growth", "Explore capital / facility commitments"],
+              "Starting resources",
+              capital,
+              setCapital,
+              [
+                ["all", "Compare all capital profiles"],
+                ["lean", "Explore lower capital models"],
+                ["growth", "Explore capital / facility commitments"],
+              ],
             ],
-          ],
-          [
-            "Responsibility",
-            responsibility,
-            setResponsibility,
             [
-              ["all", "Compare responsibility levels"],
-              ["hands-on", "Hands-on delivery"],
-              ["systems", "Manage operating systems"],
+              "Responsibility",
+              responsibility,
+              setResponsibility,
+              [
+                ["all", "Compare responsibility levels"],
+                ["hands-on", "Hands-on delivery"],
+                ["systems", "Manage operating systems"],
+              ],
             ],
-          ],
-          [
-            "B2B customers",
-            b2b,
-            setB2b,
             [
-              ["all", "Explore either"],
-              ["yes", "Business customers"],
-              ["no", "Start with delivery labor"],
+              "B2B customers",
+              b2b,
+              setB2b,
+              [
+                ["all", "Explore either"],
+                ["yes", "Business customers"],
+                ["no", "Start with delivery labor"],
+              ],
             ],
-          ],
-        ].map(([label, value, setter, options]) => (
-          <label key={String(label)}>
-            {String(label)}
-            <select
-              value={String(value)}
-              onChange={(e) => (setter as (v: string) => void)(e.target.value)}
-            >
-              {(options as string[][]).map(([v, t]) => (
-                <option value={v} key={v}>
-                  {t}
-                </option>
-              ))}
-            </select>
-          </label>
-        ))}
-      </div>
+          ].map(([label, value, setter, options], questionIndex) => (
+            <label key={String(label)} hidden={questionIndex !== step}>
+              {String(label)}
+              <select
+                value={String(value)}
+                onChange={(e) =>
+                  (setter as (v: string) => void)(e.target.value)
+                }
+              >
+                {(options as string[][]).map(([v, t]) => (
+                  <option value={v} key={v}>
+                    {t}
+                  </option>
+                ))}
+              </select>
+            </label>
+          ))}
+        </div>
+        <div className="lane-wizard-controls">
+          <button
+            className="button secondary"
+            disabled={step === 0}
+            onClick={() => setStep((value) => value - 1)}
+          >
+            Previous
+          </button>
+          <button
+            className="button"
+            disabled={step === 7}
+            onClick={() => setStep((value) => value + 1)}
+          >
+            {step === 7 ? "Questions complete" : "Next question"}
+          </button>
+        </div>
+      </section>
       <p role="status" className="small">
-        {filtered.length} pathways shown. Filters describe models, not
-        eligibility or personalized recommendations.
+        Showing {shown.length} of {filtered.length} pathways currently matching
+        the picture you are building. Complete the questions to reveal the full
+        set. These are models to investigate, not personalized recommendations.
       </p>
       <Link className="text-link" to="/opportunities/compare">
         Compare opportunities side by side <ArrowUpRight size={16} />
       </Link>
       <div className="opportunity-grid">
-        {filtered.map((o, i) => (
+        {shown.map((o, i) => (
           <Link
             className="opportunity-card"
             to={`/opportunities/${o.id}`}
@@ -215,6 +253,7 @@ function Explorer() {
               setB2b("all");
               setCapital("all");
               setResponsibility("all");
+              setStep(0);
             }}
           >
             Reset filters
