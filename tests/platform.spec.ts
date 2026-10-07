@@ -29,13 +29,20 @@ test("journey advances, money participant changes and opportunity filters work",
     page.getByRole("heading", { name: "Customer orders", exact: true }),
   ).toBeVisible();
   await page.goto("/money");
-  await page.getByRole("button", { name: "Carrier", exact: true }).click();
+  await page.getByRole("tab", { name: /Carrier/ }).click();
   await expect(
     page.getByRole("heading", { name: "Carrier", exact: true }),
   ).toBeVisible();
   await page.goto("/opportunities");
+  await page.getByRole("button", { name: "Next question" }).click();
   await page.getByLabel("Your interest").selectOption("Facility");
   await expect(page.locator(".opportunity-card")).toHaveCount(4);
+  await expect(page.getByText("Question 2 of 8")).toBeVisible();
+  await page.goto("/journey");
+  await page.getByRole("tab", { name: "Who pays whom?" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Payment follows the agreement." }),
+  ).toBeVisible();
 });
 test("learning completion, bookmarks, quiz and corrupt storage recovery", async ({
   page,

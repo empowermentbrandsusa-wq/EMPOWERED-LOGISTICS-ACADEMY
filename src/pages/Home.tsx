@@ -1,101 +1,242 @@
 import { Link } from "react-router-dom";
 import {
+  ArrowDown,
   ArrowRight,
-  Package,
-  Truck,
-  Warehouse,
-  ScanLine,
-  RotateCcw,
   ArrowUpRight,
+  CheckCircle2,
+  Package,
+  ScanLine,
+  ShoppingBag,
+  Truck,
 } from "lucide-react";
-import { ButtonLink, Badge, ActionCenter } from "../components/ui";
+import { ActionCenter, Badge, ButtonLink } from "../components/ui";
+import {
+  BookOffer,
+  CarrierPathway,
+  OwnershipMoment,
+  StoryScene,
+  SystemStoryRail,
+} from "../components/experience";
 import { parcelStat, resources } from "../data";
+
 export default function Home() {
-  const source = resources.find((r) => r.id === parcelStat.sourceId)!;
+  const source = resources.find(
+    (resource) => resource.id === parcelStat.sourceId,
+  )!;
   return (
     <>
-      <section className="home-hero">
-        <div className="hero-copy">
+      <section className="experience-hero">
+        <div className="experience-hero-copy">
           <p className="eyebrow">
-            <span className="live-dot" /> An industry hiding in plain sight
+            <span className="live-dot" /> Your order starts a system
           </p>
           <h1>
-            Every order
-            <br />
-            creates
-            <br />
-            <em>opportunity.</em>
+            You just pressed <span>BUY NOW.</span>
           </h1>
-          <p className="lead">
-            Someone clicks BUY NOW.
-            <br />
-            An entire world of businesses gets to work.
-          </p>
+          <p className="experience-question">What happens next?</p>
           <p className="hero-support">
-            Learn the system. Find your lane.
-            <br />
-            Build your business.
+            Follow one package. See the businesses. Find the part you could own.
           </p>
           <div className="hero-ctas">
-            <ButtonLink to="/opportunities">Explore the business</ButtonLink>
-            <Link className="text-link" to="/journey">
-              Follow a package <ArrowRight size={17} />
+            <ButtonLink to="/journey">Start the journey</ButtonLink>
+            <Link className="text-link" to="/opportunities">
+              Find your lane <ArrowRight size={17} />
             </Link>
           </div>
-          <Link className="text-link carrier-cta" to="/academy/carrier">
-            Start your carrier journey <ArrowUpRight size={17} />
-          </Link>
-          <div className="hero-footnote">
-            From the first order to the final mile. And back again.
-          </div>
+          <a className="scroll-cue" href="#the-system">
+            See what your click started <ArrowDown size={18} />
+          </a>
         </div>
-        <div className="hero-image">
-          <img
-            src="/warehouse.jpg"
-            width="1600"
-            height="1067"
-            alt="Warehouse inventory arranged across racks and handling lanes"
-            fetchPriority="high"
-          />
-          <div className="image-caption">
-            <span>01 / THE SYSTEM</span>
-            <strong>
-              Behind every delivery,
-              <br />
-              there’s a business.
-            </strong>
-            <Link to="/journey" aria-label="Explore the package journey">
-              <ArrowUpRight size={25} />
-            </Link>
+        <div
+          className="buy-now-visual"
+          aria-label="Illustration of an online sneaker order becoming a package"
+        >
+          <div className="phone-order">
+            <span className="phone-speaker" />
+            <ShoppingBag size={38} aria-hidden="true" />
+            <small>ORDER ELA–001</small>
+            <strong>Everyday sneaker</strong>
+            <span className="order-price">Illustrative order</span>
+            <span className="buy-button">BUY NOW</span>
           </div>
-          <div className="package-label">
-            <Package size={22} />
-            <span>
-              ORDER CONFIRMED<strong>Next: opportunity.</strong>
-            </span>
-            <div className="barcode" aria-hidden="true" />
+          <div className="order-signal" aria-hidden="true">
+            <span />
+            <span />
+            <span />
           </div>
+          <div className="hero-package">
+            <div className="package-tape" />
+            <Package size={58} strokeWidth={1.35} />
+            <span>ORDER CONFIRMED</span>
+          </div>
+          <div className="hero-route-line" aria-hidden="true" />
         </div>
       </section>
-      <section className="scale-section">
+
+      <section className="system-reveal" id="the-system">
+        <div className="story-intro">
+          <p className="eyebrow">One click. Many handoffs.</p>
+          <h2>
+            Your screen goes still.
+            <br />
+            <em>The system starts moving.</em>
+          </h2>
+          <p>
+            Scroll through the six chapters. Tap into all 17 stages when you
+            want the full journey.
+          </p>
+        </div>
+        <SystemStoryRail />
+        <div className="system-reveal-action">
+          <div className="moving-parcel" aria-hidden="true">
+            <Package size={24} />
+          </div>
+          <Link to="/journey">
+            Follow all 17 handoffs <ArrowUpRight size={17} />
+          </Link>
+        </div>
+      </section>
+
+      <StoryScene
+        number="01"
+        eyebrow="First, the order becomes work"
+        title={
+          <>
+            The retailer makes a promise.
+            <br />
+            Operations must keep it.
+          </>
+        }
+        body={
+          <p>
+            Payment is accepted. Inventory is located. A facility receives a
+            task. The physical product has not moved yet—but several businesses
+            may already be involved.
+          </p>
+        }
+      >
+        <div
+          className="micro-scene order-scene"
+          aria-label="Order record moving to inventory and fulfillment"
+        >
+          <span>
+            <CheckCircle2 /> Order recorded
+          </span>
+          <ArrowRight />
+          <span>
+            <ScanLine /> Inventory found
+          </span>
+          <ArrowRight />
+          <span>
+            <Package /> Work released
+          </span>
+        </div>
+      </StoryScene>
+
+      <StoryScene
+        number="02"
+        eyebrow="Then, the order becomes a package"
+        title={
+          <>
+            Someone picks it.
+            <br />
+            Someone packs it.
+            <br />
+            <em>Someone gets paid to do it.</em>
+          </>
+        }
+        body={
+          <p>
+            A fulfillment operation turns digital demand into a labeled physical
+            shipment. Space, labor, materials and software make that handoff
+            possible.
+          </p>
+        }
+        tone="dark"
+      >
+        <div
+          className="sort-scene"
+          aria-label="Packages moving from picking through packing and sortation"
+        >
+          {["PICK", "PACK", "LABEL", "SORT"].map((label, index) => (
+            <div
+              key={label}
+              style={{ "--scene-step": index } as React.CSSProperties}
+            >
+              <Package size={30} />
+              <span>{label}</span>
+            </div>
+          ))}
+        </div>
+      </StoryScene>
+
+      <StoryScene
+        number="03"
+        eyebrow="Distance changes the job"
+        title={<>The package joins a network.</>}
+        body={
+          <p>
+            Grouped shipments travel between facilities before a local operation
+            assigns the final delivery work. This is where middle mile becomes
+            last mile.
+          </p>
+        }
+      >
+        <div
+          className="distance-scene"
+          aria-label="Middle-mile truck traveling from a distribution facility to a local delivery facility"
+        >
+          <span>
+            <strong>Distribution</strong>
+            <small>Grouped freight</small>
+          </span>
+          <div className="truck-lane">
+            <Truck size={42} />
+            <i />
+          </div>
+          <span>
+            <strong>Local facility</strong>
+            <small>Routes are prepared</small>
+          </span>
+        </div>
+      </StoryScene>
+
+      <StoryScene
+        number="04"
+        eyebrow="The final handoff"
+        title={
+          <>
+            A carrier accepts the route.
+            <br />
+            <em>A driver completes the promise.</em>
+          </>
+        }
+        body={
+          <p>
+            The driver is visible. Behind that driver may be a carrier
+            responsible for vehicles, insurance, dispatch, staffing, reporting
+            and service quality.
+          </p>
+        }
+        tone="lime"
+      >
+        <OwnershipMoment />
+      </StoryScene>
+
+      <section className="scale-section visual-scale">
         <div>
           <p className="eyebrow">
-            The scale of the movement · {parcelStat.year} U.S. parcels
+            Now see the scale · {parcelStat.year} U.S. parcels
           </p>
           <h2>
             <span>
-              <a
-                href={source.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View source for 23.1 billion U.S. parcels in 2025"
-              >
+              <a href={source.url} target="_blank" rel="noopener noreferrer">
                 23.1 billion
               </a>
             </span>{" "}
             packages.
             <br />
-            Every one of them had to move.
+            Every one needed a system.
           </h2>
           <a
             className="source-link"
@@ -103,156 +244,86 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Verified industry data · Pitney Bowes · 2026 report{" "}
+            Source: Pitney Bowes Parcel Shipping Index · 2026 report{" "}
             <ArrowUpRight size={14} />
           </a>
         </div>
         <div className="scale-figures">
           <div>
-            <strong>
-              <a
-                href={source.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View annual source for the calculated daily average"
-              >
-                {(parcelStat.day / 1e6).toFixed(1)}M
-              </a>
-            </strong>
+            <strong>{(parcelStat.day / 1e6).toFixed(1)}M</strong>
             <span>per average day</span>
           </div>
           <div>
-            <strong>
-              <a
-                href={source.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View annual source for the calculated per-second average"
-              >
-                {Math.round(parcelStat.second)}
-              </a>
-            </strong>
+            <strong>{Math.round(parcelStat.second)}</strong>
             <span>per average second</span>
           </div>
           <p>
-            Calculated from the annual total using 365 days. These are averages,
-            not live counts or available contracts.
+            Calculated from the annual total using 365 days. These are
+            averages—not live counts, contracts or earnings.
           </p>
         </div>
       </section>
-      <section className="system-section">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">What happens after BUY NOW?</p>
-            <h2>
-              Follow the package.
-              <br />
-              Discover the businesses.
-            </h2>
-          </div>
+
+      <section className="choice-moment">
+        <p className="eyebrow">Choose what you want to understand next</p>
+        <h2>See the system from three angles.</h2>
+        <div className="choice-moment-grid">
           <Link to="/journey">
-            Explore all 17 stages <ArrowUpRight size={16} />
+            <span>01</span>
+            <Package />
+            <h3>Follow the package</h3>
+            <p>See custody, work and business opportunity at every handoff.</p>
+            <ArrowUpRight />
+          </Link>
+          <Link to="/money">
+            <span>02</span>
+            <ScanLine />
+            <h3>Follow the money</h3>
+            <p>See who pays whom and why revenue is not profit.</p>
+            <ArrowUpRight />
+          </Link>
+          <Link to="/opportunities">
+            <span>03</span>
+            <Truck />
+            <h3>Find your lane</h3>
+            <p>Answer a few questions and surface pathways worth exploring.</p>
+            <ArrowUpRight />
           </Link>
         </div>
-        <div className="system-grid">
-          {[
-            [Package, "01", "Order", "Someone receives it."],
-            [Warehouse, "02", "Fulfillment", "Someone picks and packs it."],
-            [ScanLine, "03", "Sortation", "Someone groups it."],
-            [Truck, "04", "Transport", "Someone moves it."],
-            [Package, "05", "Delivery", "Someone completes the handoff."],
-            [RotateCcw, "06", "Returns", "Someone recovers its value."],
-          ].map(([Icon, n, title, body]) => {
-            const I = Icon as typeof Package;
-            return (
-              <Link to="/journey" key={String(n)}>
-                <div>
-                  <I size={27} />
-                  <span>{String(n)}</span>
-                </div>
-                <h3>{String(title)}</h3>
-                <p>{String(body)}</p>
-              </Link>
-            );
-          })}
-        </div>
-        <p className="big-statement">
-          Those aren’t just steps.
-          <br />
-          <em>They’re businesses.</em>
-        </p>
       </section>
-      <section className="entry-section">
-        <div>
-          <p className="eyebrow">
-            From doing the work to building the operation
-          </p>
-          <h2>
-            You don’t need a fleet
-            <br />
-            to learn the business.
-          </h2>
-          <p>
-            Start by understanding the handoffs, the costs and the requirements.
-            Explore what fits your resources—and what you need to verify.
-          </p>
-          <ButtonLink to="/start/start-small">
-            Start with what you have
-          </ButtonLink>
-        </div>
-        <div className="entry-lanes">
-          {[
-            [
-              "01",
-              "Drive",
-              "Understand personal-vehicle and owner-operator pathways.",
-              "/vehicles",
-            ],
-            [
-              "02",
-              "Operate",
-              "Learn how a carrier receives and manages route work.",
-              "/academy/carrier",
-            ],
-            [
-              "03",
-              "Build",
-              "Explore warehouses, fulfillment and logistics services.",
-              "/academy/warehouse",
-            ],
-          ].map(([n, t, d, to]) => (
-            <Link key={n} to={to}>
-              <span>{n}</span>
-              <div>
-                <h3>{t}</h3>
-                <p>{d}</p>
-              </div>
-              <ArrowUpRight size={21} />
-            </Link>
-          ))}
-        </div>
+
+      <section className="home-pathway">
+        <CarrierPathway />
       </section>
-      <section className="model-banner">
+
+      <section className="model-banner experience-model">
         <Badge>Educational models · your assumptions</Badge>
         <h2>
-          Know the numbers.
+          Revenue looks exciting.
           <br />
-          Before you make the move.
+          <em>Costs decide what survives.</em>
         </h2>
         <p>
-          Revenue is the beginning of the conversation.
-          <br />
-          Model costs, operating income, margin and break-even.
+          Model the driver, fuel, vehicle, insurance, maintenance and
+          administrative cost before calling a route profitable.
         </p>
         <div>
           <ButtonLink to="/tools/route">Model a route</ButtonLink>
           <ButtonLink to="/proposal" secondary>
-            Explore the partner proposal
+            See the partner story
           </ButtonLink>
         </div>
       </section>
+
+      <BookOffer />
+
       <ActionCenter
         ids={["parcel", "sba", "tour", "atlanta-operators", "break-even"]}
+        actions={[
+          "Follow the complete package journey.",
+          "Choose one lane to investigate—not five at once.",
+          "Verify requirements and model a downside case before spending.",
+        ]}
       />
     </>
   );

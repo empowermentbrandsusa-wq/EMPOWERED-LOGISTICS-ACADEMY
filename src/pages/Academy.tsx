@@ -13,6 +13,7 @@ import {
   Flow,
 } from "../components/ui";
 import { useLocalList } from "../lib/storage";
+import { CarrierPathway, WarehouseCompare } from "../components/experience";
 export default function Academy() {
   const [, , course, id] = useLocation().pathname.split("/");
   if (!course)
@@ -82,6 +83,31 @@ function Course({ course, lessons }: { course: string; lessons: Lesson[] }) {
   const store = useLocalList("ela-completed");
   const done = lessons.filter((l) => store.items.includes(l.id)).length;
   const next = lessons.find((l) => !store.items.includes(l.id)) || lessons[0];
+  const phaseNames =
+    course === "carrier"
+      ? [
+          "Understand the work",
+          "Build the business foundation",
+          "Run the route",
+          "Add people and capacity",
+          "Scale the carrier",
+        ]
+      : [
+          "Understand the facility",
+          "Design the operation",
+          "Control inventory",
+          "Win and serve clients",
+          "Model and scale",
+        ];
+  const phases = phaseNames.map((name, phaseIndex) => ({
+    name,
+    lessons: lessons.slice(
+      phaseIndex * 6,
+      phaseIndex === phaseNames.length - 1
+        ? lessons.length
+        : phaseIndex * 6 + 6,
+    ),
+  }));
   return (
     <div className="page-container">
       <PageHead
@@ -97,6 +123,7 @@ function Course({ course, lessons }: { course: string; lessons: Lesson[] }) {
             : "Understand what warehouse businesses sell, how the operation works and what to verify before committing to space."
         }
       />
+      {course === "carrier" ? <CarrierPathway /> : <WarehouseCompare />}
       <div className="course-progress">
         <div>
           <strong>{Math.round((done / lessons.length) * 100)}% complete</strong>
@@ -113,26 +140,63 @@ function Course({ course, lessons }: { course: string; lessons: Lesson[] }) {
           Continue learning
         </ButtonLink>
       </div>
-      <ol className="lesson-list">
-        {lessons.map((l) => (
-          <li key={l.id}>
-            <Link to={`/academy/${course}/${l.id}`}>
-              <span className="lesson-number">
-                {String(l.number).padStart(2, "0")}
-              </span>
+      <div className="course-list-intro">
+        <p className="eyebrow">Deep education · choose your next lesson</p>
+        <h2>
+          {course === "carrier"
+            ? "Build the operating knowledge behind each stage."
+            : "See the operation, then study the decisions underneath it."}
+        </h2>
+        <p>
+          You do not have to consume everything at once. Start with the next
+          relevant decision and return as your responsibilities grow.
+        </p>
+      </div>
+      <div className="course-phases">
+        {phases.map((phase, phaseIndex) => (
+          <details
+            className="course-phase"
+            key={phase.name}
+            open={phase.lessons.some((lesson) => lesson.id === next.id)}
+          >
+            <summary>
+              <span>{String(phaseIndex + 1).padStart(2, "0")}</span>
               <div>
-                <h2>{l.title}</h2>
-                <p>{l.body.split(".")[0]}.</p>
+                <small>Phase {phaseIndex + 1}</small>
+                <strong>{phase.name}</strong>
               </div>
-              {store.items.includes(l.id) ? (
-                <Check aria-label="Completed" />
-              ) : (
-                <ArrowRight aria-hidden="true" />
-              )}
-            </Link>
-          </li>
+              <em>
+                {
+                  phase.lessons.filter((lesson) =>
+                    store.items.includes(lesson.id),
+                  ).length
+                }
+                /{phase.lessons.length}
+              </em>
+            </summary>
+            <ol className="lesson-list experience-lesson-list">
+              {phase.lessons.map((l) => (
+                <li key={l.id}>
+                  <Link to={`/academy/${course}/${l.id}`}>
+                    <span className="lesson-number">
+                      {String(l.number).padStart(2, "0")}
+                    </span>
+                    <div>
+                      <h2>{l.title}</h2>
+                      <p>{l.body.split(".")[0]}.</p>
+                    </div>
+                    {store.items.includes(l.id) ? (
+                      <Check aria-label="Completed" />
+                    ) : (
+                      <ArrowRight aria-hidden="true" />
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </details>
         ))}
-      </ol>
+      </div>
       {course === "warehouse" && (
         <section className="model-banner">
           <h2>Build a mock warehouse business.</h2>
@@ -141,6 +205,30 @@ function Course({ course, lessons }: { course: string; lessons: Lesson[] }) {
             model.
           </p>
           <ButtonLink to="/tools/warehouse">Open the simulator</ButtonLink>
+        </section>
+      )}
+      {course === "carrier" && (
+        <section
+          className="future-pathway"
+          aria-labelledby="future-carrier-title"
+        >
+          <Badge>Future guided product · no price announced</Badge>
+          <div>
+            <p className="eyebrow">Start your own last-mile carrier</p>
+            <h2 id="future-carrier-title">
+              The free Academy teaches the system. A future guided pathway can
+              help organize the build.
+            </h2>
+            <p>
+              The current 30 lessons remain available. A later guided offer may
+              package setup, banking, insurance, vehicle strategy, carrier
+              packets, route evaluation, operations, hiring and scaling into a
+              structured implementation experience.
+            </p>
+          </div>
+          <button className="button" type="button" disabled>
+            Enrollment is not open
+          </button>
         </section>
       )}
       <ActionCenter
@@ -188,14 +276,21 @@ function LessonPage({
             </p>
             <Flow steps={l.diagram} />
           </section>
-          {l.sections.map((s) => (
-            <section key={s.title}>
-              <h2>{s.title}</h2>
-              <p>
-                <TermText text={s.text} />
-              </p>
-            </section>
-          ))}
+          <section className="lesson-reveals">
+            <p className="eyebrow">Choose what to unpack</p>
+            <h2>Go one layer deeper.</h2>
+            {l.sections.map((s, index) => (
+              <details key={s.title} open={index === 0}>
+                <summary>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  {s.title}
+                </summary>
+                <p>
+                  <TermText text={s.text} />
+                </p>
+              </details>
+            ))}
+          </section>
           <section className="example-box">
             <Badge>Educational example</Badge>
             <h2>See it in practice</h2>

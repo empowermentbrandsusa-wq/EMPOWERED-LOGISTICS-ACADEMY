@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-05T12:36:39.104Z",
-  "filesReviewed": 36,
+  "checkedAt": "2026-10-07T01:02:58.196Z",
+  "filesReviewed": 37,
   "checks": [
     "unsanitized HTML",
     "dynamic evaluation",
